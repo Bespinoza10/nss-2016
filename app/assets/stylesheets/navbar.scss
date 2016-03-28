@@ -1,0 +1,11 @@
+.navbar{
+  background: transparent;
+  border-radius: 0;
+  border:none;
+  .navbar-right li > a{
+    color: #fff;
+  }
+  .navbar-brand img{
+    max-height: 100px;
+  }
+}

@@ -1,0 +1,19 @@
+@import "navbar";
+
+
+.overlay-bg{
+  background: #000;
+  width: 100%;
+}
+.intro-bg{
+  background-image: url('/assets/main-bg-comp.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 100vh;
+  margin-top: -75px;
+}
