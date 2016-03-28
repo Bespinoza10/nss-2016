@@ -19,7 +19,7 @@ $orange: #fe9a22;
 }
 
 .navbar-default .navbar-nav > li > a:hover{
-  color: $orange;
+  color: #fff;
 }
 
 .navbar-default .navbar-nav > li > a:focus{
@@ -46,4 +46,9 @@ $orange: #fe9a22;
   li > a:hover{
     background: transparent;
   }
+}
+
+
+li > a.hvr-sweep-to-top:before {
+  background: $orange;
 }
