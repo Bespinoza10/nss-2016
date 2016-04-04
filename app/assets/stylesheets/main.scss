@@ -1,20 +1,70 @@
 @import "navbar";
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+$orange: #fe9a22;
 
 
-.overlay-bg{
-  background: #000;
-  width: 100%;
+
+h1, h2, h3, h4, h5, h6, body{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
 }
-.intro-bg{
+
+
+.center-block{
+  margin: 0 auto;
+  float: none;
+}
+
+
+header {
   background-image: url('/assets/main-bg-comp.jpg');
-  background-repeat: no-repeat;
+  background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  height: 100vh;
-  margin-top: -150px;
+  text-align: center;
+  color: white;
+  height: 800px;
+}
+header .intro-text {
+  padding-top: 250px;
+  padding-bottom: 50px;
+  text-align: left;
 }
 
+
+.intro-p-column{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.intro-p{
+  color: #fff;
+}
+
+
+.btn-apply{
+  padding: 10px 30px;
+  background-color: #fff;
+  border-radius: 0;
+  color: $orange;
+  font-size: 30px;
+  font-weight: 400;
+  border: none;
+  -webkit-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.btn-apply:hover{
+  background-color: $orange;
+  color: #fff;
+  -webkit-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  -o-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
