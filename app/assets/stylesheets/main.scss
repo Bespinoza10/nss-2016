@@ -1,6 +1,7 @@
 @import "navbar";
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300);
 $orange: #fe9a22;
+$grey: #646464;
 
 
 
@@ -67,4 +68,15 @@ header .intro-text {
   -moz-transition: background-color .3s ease-in-out, color .3s ease-in-out;
   -o-transition: background-color .3s ease-in-out, color .3s ease-in-out;
   transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+
+.video{
+  background: #646464;
+  margin-top: 50px;
+}
+
+.video-box{
+  padding-top: 15px;
+  padding-bottom: 15px;
 }

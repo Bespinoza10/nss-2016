@@ -1,4 +1,5 @@
 $orange: #fe9a22;
+$grey: #646464;
 
 
 
@@ -6,12 +7,14 @@ $orange: #fe9a22;
   background: transparent;
   border-radius: 0;
   border:none;
+  transition: background .3s ease-in-out;
   .navbar-right li > a{
     color: #fff;
     font-size: 18px;
   }
   .navbar-brand img{
     max-height: 100px;
+    transition: max-height .3s ease-in-out;
   }
 }
 
@@ -51,6 +54,39 @@ $orange: #fe9a22;
 }
 
 
-li > a.hvr-sweep-to-top:before {
+li > a.hvr-sweep-to-bottom:before {
   background: $orange;
+}
+
+
+// AFFIX STYLING ON SCROLL
+
+
+.affix{
+  background: $grey;
+  transition: background .3s ease-in-out;
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  -o-transition: background .3s ease-in-out;
+  min-height: 70px;
+  .navbar-brand img{
+    max-height: 50px;
+    margin-top: -5px;
+    transition: max-height .3s ease-in-out;
+  }
+  .navbar-right .nav-links{
+    padding-top: 30px;
+    transition: padding-top .3s ease-in-out;
+    -webkit-transition: padding-top .3s ease-in-out;
+    -moz-transition: padding-top .3s ease-in-out;
+    -o-transition: padding-top .3s ease-in-out;
+  }
+}
+
+.affix .navbar-right li > a{
+  font-size: 15px;
+  transition: background .3s ease-in-out;
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  -o-transition: background .3s ease-in-out;
 }
