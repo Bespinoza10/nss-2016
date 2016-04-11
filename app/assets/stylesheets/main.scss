@@ -16,6 +16,19 @@ h1, h2, h3, h4, h5, h6, body{
   float: none;
 }
 
+.text-center{
+  text-align: center;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.no-padding{
+  padding-left: 0;
+  padding-right: 0;
+}
+
 
 header {
   background-image: url('/assets/main-bg-comp.jpg');
@@ -112,6 +125,15 @@ header .intro-text {
   background-size: cover;
 }
 
+.professional-bg{
+  background-image: url('/assets/professional.jpg');
+  background-repeat: none;
+  padding: 160px 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
 
 
 
@@ -144,4 +166,44 @@ header .intro-text {
   -webkit-transition: background-color .3s ease-in-out, color .3s ease-in-out;
   -moz-transition: background-color .3s ease-in-out, color .3s ease-in-out;
   -o-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+
+/////////////////////// News Letter Form ///////////////////////
+
+.newsletter{
+  padding: 60px 0;
+}
+
+.news-btn{
+  background-color: $orange;
+  color: #fff;
+  border-radius: 0;
+  border: none;
+  padding: 15px 20px;
+}
+
+.news-form{
+  padding-top: 20px;
+}
+
+.form-control{
+  border-radius: 0;
+  border: 2px solid $orange;
+  min-height: 50px;
+}
+
+#email-news{
+  max-width: 100%;
+}
+
+
+/////////////////////// Gov ///////////////////////
+
+.gov{
+  padding: 60px 0;
+  background: $grey;
+  .gov-p{
+    color: #fff;
+  }
 }
