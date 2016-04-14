@@ -1,0 +1,111 @@
+$orange: #fe9a22;
+$grey: #646464;
+
+
+
+.navbar{
+  background: transparent;
+  border-radius: 0;
+  border:none;
+  transition: background .3s ease-in-out;
+  .navbar-right li > a{
+    color: #fff;
+    font-size: 18px;
+  }
+  .navbar-brand img{
+    max-height: 100px;
+    transition: max-height .3s ease-in-out;
+  }
+}
+
+.navbar-right .nav-links{
+  padding-top: 50px;
+  padding-right: 30px;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:focus{
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a::selection{
+  color: #fff;
+}
+
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background: transparent;
+  color: #fff;
+}
+
+
+
+.dropdown-menu {
+  background: $orange;
+  padding: 0;
+  li > a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: none;
+    transition: background .3s ease-in-out, color .3s ease-in-out;
+    -webkit-transition: background .3s ease-in-out, color .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out, color .3s ease-in-out;
+    -o-transition: background .3s ease-in-out, color .3s ease-in-out;
+  }
+  li > a:hover{
+    background: #fff;
+    color: $orange;
+    transition: background .3s ease-in-out, color .3s ease-in-out;
+    -webkit-transition: background .3s ease-in-out, color .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out, color .3s ease-in-out;
+    -o-transition: background .3s ease-in-out, color .3s ease-in-out;
+  }
+}
+
+
+li > a.hvr-sweep-to-bottom:before {
+  background: $orange;
+}
+
+.dropdown-menu li >a.hvr-sweep-to-right:before{
+  background: #fff;
+}
+.dropdown-menu li >a.hvr-underline-from-left:before{
+  
+  background: $grey;
+}
+
+
+// AFFIX STYLING ON SCROLL
+
+
+.affix{
+  background: $grey;
+  transition: background .3s ease-in-out;
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  -o-transition: background .3s ease-in-out;
+  min-height: 70px;
+  .navbar-brand img{
+    max-height: 50px;
+    margin-top: -5px;
+    transition: max-height .3s ease-in-out;
+  }
+  .navbar-right .nav-links{
+    padding-top: 30px;
+    transition: padding-top .3s ease-in-out;
+    -webkit-transition: padding-top .3s ease-in-out;
+    -moz-transition: padding-top .3s ease-in-out;
+    -o-transition: padding-top .3s ease-in-out;
+  }
+}
+
+.affix .navbar-right li > a{
+  font-size: 15px;
+  transition: background .3s ease-in-out;
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  -o-transition: background .3s ease-in-out;
+}
