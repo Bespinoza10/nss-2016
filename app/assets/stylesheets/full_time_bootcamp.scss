@@ -1,0 +1,24 @@
+// Place all the styles related to the FullTimeBootcamp controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+$orange: #fe9a22;
+$grey: #646464;
+
+.program-title{
+  color: #fff;
+}
+
+.full-time-bg-header{
+  background-image: url('/assets/full-time-bg.jpg');
+  background-repeat: none;
+  padding: 180px 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.program-content{
+  padding-top: 10%;
+}
