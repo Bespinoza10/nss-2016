@@ -43,19 +43,38 @@ $grey: #646464;
 
 
 .dropdown-menu {
-  background: transparent;
+  background: $orange;
+  padding: 0;
   li > a{
     padding-top: 10px;
     padding-bottom: 10px;
+    background: none;
+    transition: background .3s ease-in-out, color .3s ease-in-out;
+    -webkit-transition: background .3s ease-in-out, color .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out, color .3s ease-in-out;
+    -o-transition: background .3s ease-in-out, color .3s ease-in-out;
   }
   li > a:hover{
-    background: transparent;
+    background: #fff;
+    color: $orange;
+    transition: background .3s ease-in-out, color .3s ease-in-out;
+    -webkit-transition: background .3s ease-in-out, color .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out, color .3s ease-in-out;
+    -o-transition: background .3s ease-in-out, color .3s ease-in-out;
   }
 }
 
 
 li > a.hvr-sweep-to-bottom:before {
   background: $orange;
+}
+
+.dropdown-menu li >a.hvr-sweep-to-right:before{
+  background: #fff;
+}
+.dropdown-menu li >a.hvr-underline-from-left:before{
+  
+  background: $grey;
 }
 
 

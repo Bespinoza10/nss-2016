@@ -1,9 +1,12 @@
 @import "navbar";
+@import "full_time_bootcamp";
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300);
 $orange: #fe9a22;
 $grey: #646464;
 
-
+a {
+  color: #000;
+}
 
 h1, h2, h3, h4, h5, h6, body{
   font-family: 'Lato', sans-serif;
@@ -29,6 +32,9 @@ h1, h2, h3, h4, h5, h6, body{
   padding-right: 0;
 }
 
+.padding-bottom-top{
+  padding: 5% 0;
+}
 
 header {
   background-image: url('/assets/main-bg-comp.jpg');

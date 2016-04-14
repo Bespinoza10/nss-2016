@@ -1,0 +1,2 @@
+module FullHelper
+end
