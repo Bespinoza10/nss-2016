@@ -37380,3 +37380,2505 @@ Started GET "/assets/full-time/software-dev2.jpg" for ::1 at 2016-04-14 11:32:49
 
 
 Started GET "/assets/full-time-bg.jpg" for ::1 at 2016-04-14 11:32:49 -0500
+
+
+Started GET "/full_time_bootcamp" for ::1 at 2016-04-14 11:37:32 -0500
+Processing by FullTimeBootcampController#index as HTML
+  Rendered full_time_bootcamp/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3099ms (Views: 3098.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/part_time_bootcamp.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/navbar.self-2f13285d4f6d23b88eee19514452529ddbbac1accc74a300ad13fb433ae05128.css?body=1" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-d46310e9b6ba8e6c6be5bf4bdafde905ebdf6c6c1d1bb48185820998e1f3664c.css?body=1" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/main.self-b0fcaba0e1b0864d3b457bd285aed989e6910ace98772c9e0fb9e4f4f02f318c.css?body=1" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/application.self-ddca43fdb3b075d76cd6b4584b3327df024998a155d2d4b1616ea61b7c27effa.css?body=1" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/full.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/full-time/nss_website_programs-small.png" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/full-time/software-dev2.jpg" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/assets/full-time-bg.jpg" for ::1 at 2016-04-14 11:37:36 -0500
+
+
+Started GET "/part_time_bootcamp" for ::1 at 2016-04-14 11:37:42 -0500
+Processing by PartTimeBootcampController#index as HTML
+  Rendered part_time_bootcamp/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 49ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 11:37:43 -0500
+
+
+Started GET "/full_time_bootcamp" for ::1 at 2016-04-14 11:38:57 -0500
+Processing by FullTimeBootcampController#index as HTML
+  Rendered full_time_bootcamp/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2799ms (Views: 2798.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-88e5c23a41a50f9da96f863273061f4cf24a486eb1050ccd5596149e77d46d71.css?body=1" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/application.self-2c29a85b3f5c0c4751aefbbc018ff1c90993634add06019c7912a8467db8707d.css?body=1" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/navbar.self-2f13285d4f6d23b88eee19514452529ddbbac1accc74a300ad13fb433ae05128.css?body=1" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-10e1f5781249e82dd2d4ef2c138c385ed5a9dd58aff9be24c6654569d4a98c64.css?body=1" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-72872022b41e56e4d2913485f0e9e357637fe8cf7329aa74e2aac07025149f45.css?body=1" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/full.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/full-time/nss_website_programs-small.png" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/full-time/software-dev2.jpg" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/assets/full-time-bg.jpg" for ::1 at 2016-04-14 11:39:00 -0500
+
+
+Started GET "/full_time_bootcamp" for ::1 at 2016-04-14 11:39:03 -0500
+Processing by FullTimeBootcampController#index as HTML
+  Rendered full_time_bootcamp/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 44ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/full_time_bootcamp.self-10e1f5781249e82dd2d4ef2c138c385ed5a9dd58aff9be24c6654569d4a98c64.css?body=1" for ::1 at 2016-04-14 11:39:03 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-72872022b41e56e4d2913485f0e9e357637fe8cf7329aa74e2aac07025149f45.css?body=1" for ::1 at 2016-04-14 11:39:03 -0500
+
+
+Started GET "/assets/application.self-2c29a85b3f5c0c4751aefbbc018ff1c90993634add06019c7912a8467db8707d.css?body=1" for ::1 at 2016-04-14 11:39:03 -0500
+
+
+Started GET "/assets/main.self-88e5c23a41a50f9da96f863273061f4cf24a486eb1050ccd5596149e77d46d71.css?body=1" for ::1 at 2016-04-14 11:39:04 -0500
+
+
+Started GET "/assets/navbar.self-2f13285d4f6d23b88eee19514452529ddbbac1accc74a300ad13fb433ae05128.css?body=1" for ::1 at 2016-04-14 11:39:04 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-14 11:39:04 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 11:39:04 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 11:39:04 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-04-14 11:39:04 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-04-14 11:39:04 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-04-14 11:39:04 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-04-14 11:39:04 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-04-14 11:39:04 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-04-14 11:39:04 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-04-14 11:39:04 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-04-14 11:39:04 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-04-14 11:39:04 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-04-14 11:39:04 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-04-14 11:39:04 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-04-14 11:39:04 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-14 11:39:04 -0500
+
+
+Started GET "/assets/full.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 11:39:04 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 11:39:04 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 11:39:04 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-14 11:39:04 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 11:39:04 -0500
+
+
+Started GET "/assets/full-time/software-dev2.jpg" for ::1 at 2016-04-14 11:39:04 -0500
+
+
+Started GET "/assets/full-time/nss_website_programs-small.png" for ::1 at 2016-04-14 11:39:04 -0500
+
+
+Started GET "/assets/full-time-bg.jpg" for ::1 at 2016-04-14 11:39:04 -0500
+
+
+Started GET "/part_time_bootcamp" for ::1 at 2016-04-14 11:39:13 -0500
+Processing by PartTimeBootcampController#index as HTML
+  Rendered part_time_bootcamp/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 45ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/full-time/software-dev2.jpg" for ::1 at 2016-04-14 11:39:13 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 11:39:13 -0500
+
+
+Started GET "/assets/full-time/nss_website_programs-small.png" for ::1 at 2016-04-14 11:39:13 -0500
+
+
+Started GET "/assets/part-time-bg.jpg" for ::1 at 2016-04-14 11:39:13 -0500
+
+
+Started GET "/part_time_bootcamp" for ::1 at 2016-04-14 12:07:31 -0500
+Processing by PartTimeBootcampController#index as HTML
+  Rendered part_time_bootcamp/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 184ms (Views: 183.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-88e5c23a41a50f9da96f863273061f4cf24a486eb1050ccd5596149e77d46d71.css?body=1" for ::1 at 2016-04-14 12:07:31 -0500
+
+
+Started GET "/assets/application.self-2c29a85b3f5c0c4751aefbbc018ff1c90993634add06019c7912a8467db8707d.css?body=1" for ::1 at 2016-04-14 12:07:31 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-10e1f5781249e82dd2d4ef2c138c385ed5a9dd58aff9be24c6654569d4a98c64.css?body=1" for ::1 at 2016-04-14 12:07:31 -0500
+
+
+Started GET "/assets/navbar.self-2f13285d4f6d23b88eee19514452529ddbbac1accc74a300ad13fb433ae05128.css?body=1" for ::1 at 2016-04-14 12:07:31 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-14 12:07:31 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-72872022b41e56e4d2913485f0e9e357637fe8cf7329aa74e2aac07025149f45.css?body=1" for ::1 at 2016-04-14 12:07:31 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 12:07:31 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 12:07:31 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-04-14 12:07:31 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-04-14 12:07:31 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-04-14 12:07:31 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-04-14 12:07:31 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-04-14 12:07:31 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-04-14 12:07:31 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-04-14 12:07:31 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-04-14 12:07:32 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-04-14 12:07:32 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-04-14 12:07:32 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-04-14 12:07:32 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-04-14 12:07:32 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-14 12:07:32 -0500
+
+
+Started GET "/assets/full.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 12:07:32 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 12:07:32 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 12:07:32 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-14 12:07:32 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 12:07:32 -0500
+
+
+Started GET "/assets/full-time/software-dev2.jpg" for ::1 at 2016-04-14 12:07:32 -0500
+
+
+Started GET "/assets/full-time/nss_website_programs-small.png" for ::1 at 2016-04-14 12:07:32 -0500
+
+
+Started GET "/assets/part-time/nss_website_programs-part-timeSmall.png" for ::1 at 2016-04-14 12:07:32 -0500
+
+
+Started GET "/assets/part-time-bg.jpg" for ::1 at 2016-04-14 12:07:32 -0500
+
+
+Started GET "/part_time_bootcamp" for ::1 at 2016-04-14 12:27:28 -0500
+Processing by PartTimeBootcampController#index as HTML
+  Rendered part_time_bootcamp/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 206ms (Views: 199.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-88e5c23a41a50f9da96f863273061f4cf24a486eb1050ccd5596149e77d46d71.css?body=1" for ::1 at 2016-04-14 12:27:28 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-10e1f5781249e82dd2d4ef2c138c385ed5a9dd58aff9be24c6654569d4a98c64.css?body=1" for ::1 at 2016-04-14 12:27:28 -0500
+
+
+Started GET "/assets/application.self-2c29a85b3f5c0c4751aefbbc018ff1c90993634add06019c7912a8467db8707d.css?body=1" for ::1 at 2016-04-14 12:27:28 -0500
+
+
+Started GET "/assets/navbar.self-2f13285d4f6d23b88eee19514452529ddbbac1accc74a300ad13fb433ae05128.css?body=1" for ::1 at 2016-04-14 12:27:28 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-72872022b41e56e4d2913485f0e9e357637fe8cf7329aa74e2aac07025149f45.css?body=1" for ::1 at 2016-04-14 12:27:28 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-14 12:27:28 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 12:27:28 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 12:27:28 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-04-14 12:27:28 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-04-14 12:27:28 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-04-14 12:27:28 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-04-14 12:27:28 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-04-14 12:27:28 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-04-14 12:27:28 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-04-14 12:27:28 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-04-14 12:27:28 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-04-14 12:27:28 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-04-14 12:27:29 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-04-14 12:27:29 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-14 12:27:29 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-04-14 12:27:29 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-14 12:27:29 -0500
+
+
+Started GET "/assets/full.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 12:27:29 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 12:27:29 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 12:27:29 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 12:27:29 -0500
+
+
+Started GET "/assets/part-time/nss_website_programs-part-timeSmall.png" for ::1 at 2016-04-14 12:27:29 -0500
+
+
+Started GET "/assets/full-time/nss_website_programs-small.png" for ::1 at 2016-04-14 12:27:29 -0500
+
+
+Started GET "/assets/part-time/day-night.jpg" for ::1 at 2016-04-14 12:27:29 -0500
+
+
+Started GET "/assets/part-time-bg.jpg" for ::1 at 2016-04-14 12:27:29 -0500
+
+
+Started GET "/part_time_bootcamp" for ::1 at 2016-04-14 12:27:45 -0500
+Processing by PartTimeBootcampController#index as HTML
+  Rendered part_time_bootcamp/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 86ms (Views: 85.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/full_time_bootcamp.self-10e1f5781249e82dd2d4ef2c138c385ed5a9dd58aff9be24c6654569d4a98c64.css?body=1" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/main.self-88e5c23a41a50f9da96f863273061f4cf24a486eb1050ccd5596149e77d46d71.css?body=1" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-72872022b41e56e4d2913485f0e9e357637fe8cf7329aa74e2aac07025149f45.css?body=1" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/navbar.self-2f13285d4f6d23b88eee19514452529ddbbac1accc74a300ad13fb433ae05128.css?body=1" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/application.self-2c29a85b3f5c0c4751aefbbc018ff1c90993634add06019c7912a8467db8707d.css?body=1" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/full.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/part-time/day-night.jpg" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/full-time/nss_website_programs-small.png" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/assets/part-time/nss_website_programs-part-timeSmall.png" for ::1 at 2016-04-14 12:27:46 -0500
+
+
+Started GET "/part_time_bootcamp" for ::1 at 2016-04-14 12:32:08 -0500
+Processing by PartTimeBootcampController#index as HTML
+  Rendered part_time_bootcamp/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 78ms (Views: 77.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/full_time_bootcamp.self-10e1f5781249e82dd2d4ef2c138c385ed5a9dd58aff9be24c6654569d4a98c64.css?body=1" for ::1 at 2016-04-14 12:32:08 -0500
+
+
+Started GET "/assets/application.self-2c29a85b3f5c0c4751aefbbc018ff1c90993634add06019c7912a8467db8707d.css?body=1" for ::1 at 2016-04-14 12:32:08 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-72872022b41e56e4d2913485f0e9e357637fe8cf7329aa74e2aac07025149f45.css?body=1" for ::1 at 2016-04-14 12:32:08 -0500
+
+
+Started GET "/assets/navbar.self-2f13285d4f6d23b88eee19514452529ddbbac1accc74a300ad13fb433ae05128.css?body=1" for ::1 at 2016-04-14 12:32:08 -0500
+
+
+Started GET "/assets/main.self-88e5c23a41a50f9da96f863273061f4cf24a486eb1050ccd5596149e77d46d71.css?body=1" for ::1 at 2016-04-14 12:32:08 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-14 12:32:08 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 12:32:08 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 12:32:08 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-04-14 12:32:08 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-04-14 12:32:08 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-04-14 12:32:08 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-04-14 12:32:08 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-04-14 12:32:08 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-04-14 12:32:08 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-04-14 12:32:08 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-04-14 12:32:09 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-04-14 12:32:09 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-04-14 12:32:09 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-04-14 12:32:09 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-04-14 12:32:09 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-14 12:32:09 -0500
+
+
+Started GET "/assets/full.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 12:32:09 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 12:32:09 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 12:32:09 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-14 12:32:09 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 12:32:09 -0500
+
+
+Started GET "/assets/part-time/day-night.jpg" for ::1 at 2016-04-14 12:32:09 -0500
+
+
+Started GET "/assets/part-time/nss_website_programs-part-timeSmall.png" for ::1 at 2016-04-14 12:32:09 -0500
+
+
+Started GET "/part_time_bootcamp" for ::1 at 2016-04-14 12:32:46 -0500
+Processing by PartTimeBootcampController#index as HTML
+  Rendered part_time_bootcamp/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3000ms (Views: 2999.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-f53aaa23c4bb891c5fa6b470f4e960b3f65f57db963d7dca89801399fed29ab0.css?body=1" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/navbar.self-2f13285d4f6d23b88eee19514452529ddbbac1accc74a300ad13fb433ae05128.css?body=1" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-72872022b41e56e4d2913485f0e9e357637fe8cf7329aa74e2aac07025149f45.css?body=1" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/application.self-9613be93ec1991f80636bb17dbca81c83838ed9d9cb89293e1a84b0c3defee36.css?body=1" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-10e1f5781249e82dd2d4ef2c138c385ed5a9dd58aff9be24c6654569d4a98c64.css?body=1" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/full.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/part-time/nss_website_programs-part-timeSmall.png" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/assets/part-time/day-night.jpg" for ::1 at 2016-04-14 12:32:50 -0500
+
+
+Started GET "/part_time_bootcamp" for ::1 at 2016-04-14 13:35:56 -0500
+Processing by PartTimeBootcampController#index as HTML
+  Rendered part_time_bootcamp/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 129ms (Views: 120.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/part_time_bootcamp.self-72872022b41e56e4d2913485f0e9e357637fe8cf7329aa74e2aac07025149f45.css?body=1" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/application.self-9613be93ec1991f80636bb17dbca81c83838ed9d9cb89293e1a84b0c3defee36.css?body=1" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/navbar.self-2f13285d4f6d23b88eee19514452529ddbbac1accc74a300ad13fb433ae05128.css?body=1" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/main.self-f53aaa23c4bb891c5fa6b470f4e960b3f65f57db963d7dca89801399fed29ab0.css?body=1" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-10e1f5781249e82dd2d4ef2c138c385ed5a9dd58aff9be24c6654569d4a98c64.css?body=1" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/full.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/part-time/day-night.jpg" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/assets/part-time/nss_website_programs-part-timeSmall.png" for ::1 at 2016-04-14 13:35:57 -0500
+
+
+Started GET "/part_time_bootcamp" for ::1 at 2016-04-14 13:36:27 -0500
+Processing by PartTimeBootcampController#index as HTML
+  Rendered part_time_bootcamp/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 64ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9613be93ec1991f80636bb17dbca81c83838ed9d9cb89293e1a84b0c3defee36.css?body=1" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-10e1f5781249e82dd2d4ef2c138c385ed5a9dd58aff9be24c6654569d4a98c64.css?body=1" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-72872022b41e56e4d2913485f0e9e357637fe8cf7329aa74e2aac07025149f45.css?body=1" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/navbar.self-2f13285d4f6d23b88eee19514452529ddbbac1accc74a300ad13fb433ae05128.css?body=1" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/main.self-f53aaa23c4bb891c5fa6b470f4e960b3f65f57db963d7dca89801399fed29ab0.css?body=1" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/full.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/part-time/day-night.jpg" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/part-time/group-project.jpg" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/assets/part-time/nss_website_programs-part-timeSmall.png" for ::1 at 2016-04-14 13:36:27 -0500
+
+
+Started GET "/part_time_bootcamp" for ::1 at 2016-04-14 13:37:30 -0500
+Processing by PartTimeBootcampController#index as HTML
+  Rendered part_time_bootcamp/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 233ms (Views: 232.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-f53aaa23c4bb891c5fa6b470f4e960b3f65f57db963d7dca89801399fed29ab0.css?body=1" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-10e1f5781249e82dd2d4ef2c138c385ed5a9dd58aff9be24c6654569d4a98c64.css?body=1" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/navbar.self-2f13285d4f6d23b88eee19514452529ddbbac1accc74a300ad13fb433ae05128.css?body=1" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-72872022b41e56e4d2913485f0e9e357637fe8cf7329aa74e2aac07025149f45.css?body=1" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/application.self-9613be93ec1991f80636bb17dbca81c83838ed9d9cb89293e1a84b0c3defee36.css?body=1" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/full.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/part-time/nss_website_programs-part-timeSmall.png" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/part-time/group-project.jpg" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/assets/part-time/day-night.jpg" for ::1 at 2016-04-14 13:37:31 -0500
+
+
+Started GET "/part_time_bootcamp" for ::1 at 2016-04-14 13:40:41 -0500
+Processing by PartTimeBootcampController#index as HTML
+  Rendered part_time_bootcamp/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 83ms (Views: 82.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-f53aaa23c4bb891c5fa6b470f4e960b3f65f57db963d7dca89801399fed29ab0.css?body=1" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/navbar.self-2f13285d4f6d23b88eee19514452529ddbbac1accc74a300ad13fb433ae05128.css?body=1" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-72872022b41e56e4d2913485f0e9e357637fe8cf7329aa74e2aac07025149f45.css?body=1" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/application.self-9613be93ec1991f80636bb17dbca81c83838ed9d9cb89293e1a84b0c3defee36.css?body=1" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-10e1f5781249e82dd2d4ef2c138c385ed5a9dd58aff9be24c6654569d4a98c64.css?body=1" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/full.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/part-time/day-night.jpg" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/part-time/nss_website_programs-part-timeSmall.png" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/assets/part-time/group-project.jpg" for ::1 at 2016-04-14 13:40:42 -0500
+
+
+Started GET "/part_time_bootcamp" for ::1 at 2016-04-14 13:40:56 -0500
+Processing by PartTimeBootcampController#index as HTML
+  Rendered part_time_bootcamp/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 87ms (Views: 86.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-f53aaa23c4bb891c5fa6b470f4e960b3f65f57db963d7dca89801399fed29ab0.css?body=1" for ::1 at 2016-04-14 13:40:56 -0500
+
+
+Started GET "/assets/application.self-9613be93ec1991f80636bb17dbca81c83838ed9d9cb89293e1a84b0c3defee36.css?body=1" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-10e1f5781249e82dd2d4ef2c138c385ed5a9dd58aff9be24c6654569d4a98c64.css?body=1" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-72872022b41e56e4d2913485f0e9e357637fe8cf7329aa74e2aac07025149f45.css?body=1" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/navbar.self-2f13285d4f6d23b88eee19514452529ddbbac1accc74a300ad13fb433ae05128.css?body=1" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/full.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/part-time/day-night.jpg" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/part-time/nss_website_programs-part-timeSmall.png" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/assets/part-time/group-project.jpg" for ::1 at 2016-04-14 13:40:57 -0500
+
+
+Started GET "/full_time_bootcamp" for ::1 at 2016-04-14 13:41:51 -0500
+Processing by FullTimeBootcampController#index as HTML
+  Rendered full_time_bootcamp/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/full-time/software-dev2.jpg" for ::1 at 2016-04-14 13:41:51 -0500
+
+
+Started GET "/assets/full-time/nss_website_programs-small.png" for ::1 at 2016-04-14 13:41:51 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 13:41:51 -0500
+
+
+Started GET "/assets/full-time-bg.jpg" for ::1 at 2016-04-14 13:41:51 -0500
+
+
+Started GET "/part_time_bootcamp" for ::1 at 2016-04-14 13:42:11 -0500
+Processing by PartTimeBootcampController#index as HTML
+  Rendered part_time_bootcamp/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 13:42:12 -0500
+
+
+Started GET "/assets/part-time/nss_website_programs-part-timeSmall.png" for ::1 at 2016-04-14 13:42:12 -0500
+
+
+Started GET "/assets/part-time/day-night.jpg" for ::1 at 2016-04-14 13:42:12 -0500
+
+
+Started GET "/assets/part-time/group-project.jpg" for ::1 at 2016-04-14 13:42:12 -0500
+
+
+Started GET "/part_time_bootcamp" for ::1 at 2016-04-14 13:42:56 -0500
+Processing by PartTimeBootcampController#index as HTML
+  Rendered part_time_bootcamp/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 69ms (Views: 68.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/full_time_bootcamp.self-10e1f5781249e82dd2d4ef2c138c385ed5a9dd58aff9be24c6654569d4a98c64.css?body=1" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/application.self-9613be93ec1991f80636bb17dbca81c83838ed9d9cb89293e1a84b0c3defee36.css?body=1" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/navbar.self-2f13285d4f6d23b88eee19514452529ddbbac1accc74a300ad13fb433ae05128.css?body=1" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/main.self-f53aaa23c4bb891c5fa6b470f4e960b3f65f57db963d7dca89801399fed29ab0.css?body=1" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-72872022b41e56e4d2913485f0e9e357637fe8cf7329aa74e2aac07025149f45.css?body=1" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/full.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/part-time/day-night.jpg" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/part-time/nss_website_programs-part-timeSmall.png" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/assets/part-time/group-project.jpg" for ::1 at 2016-04-14 13:42:57 -0500
+
+
+Started GET "/part_time_bootcamp" for ::1 at 2016-04-14 13:43:50 -0500
+Processing by PartTimeBootcampController#index as HTML
+  Rendered part_time_bootcamp/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 65ms (Views: 64.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-f53aaa23c4bb891c5fa6b470f4e960b3f65f57db963d7dca89801399fed29ab0.css?body=1" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-10e1f5781249e82dd2d4ef2c138c385ed5a9dd58aff9be24c6654569d4a98c64.css?body=1" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/navbar.self-2f13285d4f6d23b88eee19514452529ddbbac1accc74a300ad13fb433ae05128.css?body=1" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/application.self-9613be93ec1991f80636bb17dbca81c83838ed9d9cb89293e1a84b0c3defee36.css?body=1" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-72872022b41e56e4d2913485f0e9e357637fe8cf7329aa74e2aac07025149f45.css?body=1" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/full.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/part-time/day-night.jpg" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/part-time/group-project.jpg" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/assets/part-time/nss_website_programs-part-timeSmall.png" for ::1 at 2016-04-14 13:43:51 -0500
+
+
+Started GET "/part_time_bootcamp" for ::1 at 2016-04-14 13:44:08 -0500
+Processing by PartTimeBootcampController#index as HTML
+  Rendered part_time_bootcamp/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 68ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-f53aaa23c4bb891c5fa6b470f4e960b3f65f57db963d7dca89801399fed29ab0.css?body=1" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-72872022b41e56e4d2913485f0e9e357637fe8cf7329aa74e2aac07025149f45.css?body=1" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/application.self-9613be93ec1991f80636bb17dbca81c83838ed9d9cb89293e1a84b0c3defee36.css?body=1" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/navbar.self-2f13285d4f6d23b88eee19514452529ddbbac1accc74a300ad13fb433ae05128.css?body=1" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-10e1f5781249e82dd2d4ef2c138c385ed5a9dd58aff9be24c6654569d4a98c64.css?body=1" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/full.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/part-time/nss_website_programs-part-timeSmall.png" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/part-time/day-night.jpg" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/assets/part-time/group-project.jpg" for ::1 at 2016-04-14 13:44:09 -0500
+
+
+Started GET "/part_time_bootcamp" for ::1 at 2016-04-14 13:44:22 -0500
+Processing by PartTimeBootcampController#index as HTML
+  Rendered part_time_bootcamp/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 64ms (Views: 63.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-f53aaa23c4bb891c5fa6b470f4e960b3f65f57db963d7dca89801399fed29ab0.css?body=1" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-10e1f5781249e82dd2d4ef2c138c385ed5a9dd58aff9be24c6654569d4a98c64.css?body=1" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/navbar.self-2f13285d4f6d23b88eee19514452529ddbbac1accc74a300ad13fb433ae05128.css?body=1" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-72872022b41e56e4d2913485f0e9e357637fe8cf7329aa74e2aac07025149f45.css?body=1" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/application.self-9613be93ec1991f80636bb17dbca81c83838ed9d9cb89293e1a84b0c3defee36.css?body=1" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/full.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/part-time/nss_website_programs-part-timeSmall.png" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/part-time/day-night.jpg" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/assets/part-time/group-project.jpg" for ::1 at 2016-04-14 13:44:23 -0500
+
+
+Started GET "/part_time_bootcamp" for ::1 at 2016-04-14 13:52:50 -0500
+Processing by PartTimeBootcampController#index as HTML
+  Rendered part_time_bootcamp/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 75ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/full_time_bootcamp.self-10e1f5781249e82dd2d4ef2c138c385ed5a9dd58aff9be24c6654569d4a98c64.css?body=1" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/main.self-f53aaa23c4bb891c5fa6b470f4e960b3f65f57db963d7dca89801399fed29ab0.css?body=1" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/navbar.self-2f13285d4f6d23b88eee19514452529ddbbac1accc74a300ad13fb433ae05128.css?body=1" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/application.self-9613be93ec1991f80636bb17dbca81c83838ed9d9cb89293e1a84b0c3defee36.css?body=1" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-72872022b41e56e4d2913485f0e9e357637fe8cf7329aa74e2aac07025149f45.css?body=1" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/full.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/part-time/group-project.jpg" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/part-time/nss_website_programs-part-timeSmall.png" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/assets/part-time/day-night.jpg" for ::1 at 2016-04-14 13:52:51 -0500
+
+
+Started GET "/part_time_bootcamp" for ::1 at 2016-04-14 13:54:20 -0500
+Processing by PartTimeBootcampController#index as HTML
+  Rendered part_time_bootcamp/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 54ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-f53aaa23c4bb891c5fa6b470f4e960b3f65f57db963d7dca89801399fed29ab0.css?body=1" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/navbar.self-2f13285d4f6d23b88eee19514452529ddbbac1accc74a300ad13fb433ae05128.css?body=1" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/application.self-9613be93ec1991f80636bb17dbca81c83838ed9d9cb89293e1a84b0c3defee36.css?body=1" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-10e1f5781249e82dd2d4ef2c138c385ed5a9dd58aff9be24c6654569d4a98c64.css?body=1" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-72872022b41e56e4d2913485f0e9e357637fe8cf7329aa74e2aac07025149f45.css?body=1" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/full.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/part-time/nss_website_programs-part-timeSmall.png" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/part-time/day-night.jpg" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/assets/part-time/group-project.jpg" for ::1 at 2016-04-14 13:54:21 -0500
+
+
+Started GET "/part_time_bootcamp" for ::1 at 2016-04-14 13:54:59 -0500
+Processing by PartTimeBootcampController#index as HTML
+  Rendered part_time_bootcamp/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 61ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/part_time_bootcamp.self-72872022b41e56e4d2913485f0e9e357637fe8cf7329aa74e2aac07025149f45.css?body=1" for ::1 at 2016-04-14 13:54:59 -0500
+
+
+Started GET "/assets/main.self-f53aaa23c4bb891c5fa6b470f4e960b3f65f57db963d7dca89801399fed29ab0.css?body=1" for ::1 at 2016-04-14 13:54:59 -0500
+
+
+Started GET "/assets/navbar.self-2f13285d4f6d23b88eee19514452529ddbbac1accc74a300ad13fb433ae05128.css?body=1" for ::1 at 2016-04-14 13:54:59 -0500
+
+
+Started GET "/assets/application.self-9613be93ec1991f80636bb17dbca81c83838ed9d9cb89293e1a84b0c3defee36.css?body=1" for ::1 at 2016-04-14 13:54:59 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-14 13:54:59 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-10e1f5781249e82dd2d4ef2c138c385ed5a9dd58aff9be24c6654569d4a98c64.css?body=1" for ::1 at 2016-04-14 13:54:59 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 13:54:59 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 13:54:59 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-04-14 13:54:59 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-04-14 13:54:59 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-04-14 13:54:59 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-04-14 13:54:59 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-04-14 13:54:59 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-04-14 13:54:59 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-04-14 13:55:00 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-04-14 13:55:00 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-04-14 13:55:00 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-04-14 13:55:00 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-04-14 13:55:00 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-04-14 13:55:00 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-14 13:55:00 -0500
+
+
+Started GET "/assets/full.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:55:00 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:55:00 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:55:00 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-14 13:55:00 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 13:55:00 -0500
+
+
+Started GET "/assets/part-time/nss_website_programs-part-timeSmall.png" for ::1 at 2016-04-14 13:55:00 -0500
+
+
+Started GET "/assets/part-time/day-night.jpg" for ::1 at 2016-04-14 13:55:00 -0500
+
+
+Started GET "/assets/part-time/group-project.jpg" for ::1 at 2016-04-14 13:55:00 -0500
+
+
+Started GET "/" for ::1 at 2016-04-14 13:57:12 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 47ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-bg-comp.jpg" for ::1 at 2016-04-14 13:57:12 -0500
+
+
+Started GET "/assets/full-time-bg.jpg" for ::1 at 2016-04-14 13:57:12 -0500
+
+
+Started GET "/assets/part-time-bg.jpg" for ::1 at 2016-04-14 13:57:12 -0500
+
+
+Started GET "/assets/professional.jpg" for ::1 at 2016-04-14 13:57:12 -0500
+
+
+Started GET "/" for ::1 at 2016-04-14 13:57:42 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 43ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-f53aaa23c4bb891c5fa6b470f4e960b3f65f57db963d7dca89801399fed29ab0.css?body=1" for ::1 at 2016-04-14 13:57:42 -0500
+
+
+Started GET "/assets/application.self-9613be93ec1991f80636bb17dbca81c83838ed9d9cb89293e1a84b0c3defee36.css?body=1" for ::1 at 2016-04-14 13:57:42 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-10e1f5781249e82dd2d4ef2c138c385ed5a9dd58aff9be24c6654569d4a98c64.css?body=1" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/navbar.self-2f13285d4f6d23b88eee19514452529ddbbac1accc74a300ad13fb433ae05128.css?body=1" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-72872022b41e56e4d2913485f0e9e357637fe8cf7329aa74e2aac07025149f45.css?body=1" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/full.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/main-bg-comp.jpg" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/full-time-bg.jpg" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/part-time-bg.jpg" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/assets/professional.jpg" for ::1 at 2016-04-14 13:57:43 -0500
+
+
+Started GET "/full_time_bootcamp" for ::1 at 2016-04-14 14:00:35 -0500
+Processing by FullTimeBootcampController#index as HTML
+  Rendered full_time_bootcamp/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 64ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/full-time/software-dev2.jpg" for ::1 at 2016-04-14 14:00:35 -0500
+
+
+Started GET "/assets/full-time/nss_website_programs-small.png" for ::1 at 2016-04-14 14:00:35 -0500
+
+
+Started GET "/full_time_bootcamp" for ::1 at 2016-04-14 14:00:44 -0500
+Processing by FullTimeBootcampController#index as HTML
+  Rendered full_time_bootcamp/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 48ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/full_time_bootcamp.self-10e1f5781249e82dd2d4ef2c138c385ed5a9dd58aff9be24c6654569d4a98c64.css?body=1" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/application.self-9613be93ec1991f80636bb17dbca81c83838ed9d9cb89293e1a84b0c3defee36.css?body=1" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/main.self-f53aaa23c4bb891c5fa6b470f4e960b3f65f57db963d7dca89801399fed29ab0.css?body=1" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/navbar.self-2f13285d4f6d23b88eee19514452529ddbbac1accc74a300ad13fb433ae05128.css?body=1" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-72872022b41e56e4d2913485f0e9e357637fe8cf7329aa74e2aac07025149f45.css?body=1" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/full.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/full-time/software-dev2.jpg" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/full-time/nss_website_programs-small.png" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/assets/full-time-bg.jpg" for ::1 at 2016-04-14 14:00:45 -0500
+
+
+Started GET "/" for ::1 at 2016-04-14 14:01:01 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 72ms (Views: 71.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-bg-comp.jpg" for ::1 at 2016-04-14 14:01:01 -0500
+
+
+Started GET "/assets/professional.jpg" for ::1 at 2016-04-14 14:01:01 -0500
+
+
+Started GET "/assets/part-time-bg.jpg" for ::1 at 2016-04-14 14:01:01 -0500
+
+
+Started GET "/part_time_bootcamp" for ::1 at 2016-04-14 14:01:05 -0500
+Processing by PartTimeBootcampController#index as HTML
+  Rendered part_time_bootcamp/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 83ms (Views: 82.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/part-time/nss_website_programs-part-timeSmall.png" for ::1 at 2016-04-14 14:01:06 -0500
+
+
+Started GET "/assets/part-time/day-night.jpg" for ::1 at 2016-04-14 14:01:06 -0500
+
+
+Started GET "/assets/part-time/group-project.jpg" for ::1 at 2016-04-14 14:01:06 -0500
+
+
+Started GET "/part_time_bootcamp" for ::1 at 2016-04-14 14:01:18 -0500
+Processing by PartTimeBootcampController#index as HTML
+  Rendered part_time_bootcamp/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 68ms (Views: 67.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9613be93ec1991f80636bb17dbca81c83838ed9d9cb89293e1a84b0c3defee36.css?body=1" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/main.self-f53aaa23c4bb891c5fa6b470f4e960b3f65f57db963d7dca89801399fed29ab0.css?body=1" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-72872022b41e56e4d2913485f0e9e357637fe8cf7329aa74e2aac07025149f45.css?body=1" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-10e1f5781249e82dd2d4ef2c138c385ed5a9dd58aff9be24c6654569d4a98c64.css?body=1" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/navbar.self-2f13285d4f6d23b88eee19514452529ddbbac1accc74a300ad13fb433ae05128.css?body=1" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/full.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/part-time/day-night.jpg" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/part-time/group-project.jpg" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/part-time/nss_website_programs-part-timeSmall.png" for ::1 at 2016-04-14 14:01:18 -0500
+
+
+Started GET "/assets/part-time-bg.jpg" for ::1 at 2016-04-14 14:01:19 -0500
+
+
+Started GET "/" for ::1 at 2016-04-14 14:04:50 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 56ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-bg-comp.jpg" for ::1 at 2016-04-14 14:04:50 -0500
+
+
+Started GET "/assets/full-time-bg.jpg" for ::1 at 2016-04-14 14:04:50 -0500
+
+
+Started GET "/assets/professional.jpg" for ::1 at 2016-04-14 14:04:50 -0500
+
+
+Started GET "/" for ::1 at 2016-04-14 14:04:53 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 57ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-f53aaa23c4bb891c5fa6b470f4e960b3f65f57db963d7dca89801399fed29ab0.css?body=1" for ::1 at 2016-04-14 14:04:53 -0500
+
+
+Started GET "/assets/application.self-9613be93ec1991f80636bb17dbca81c83838ed9d9cb89293e1a84b0c3defee36.css?body=1" for ::1 at 2016-04-14 14:04:53 -0500
+
+
+Started GET "/assets/navbar.self-2f13285d4f6d23b88eee19514452529ddbbac1accc74a300ad13fb433ae05128.css?body=1" for ::1 at 2016-04-14 14:04:53 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-72872022b41e56e4d2913485f0e9e357637fe8cf7329aa74e2aac07025149f45.css?body=1" for ::1 at 2016-04-14 14:04:53 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-10e1f5781249e82dd2d4ef2c138c385ed5a9dd58aff9be24c6654569d4a98c64.css?body=1" for ::1 at 2016-04-14 14:04:53 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-14 14:04:53 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 14:04:53 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 14:04:53 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-04-14 14:04:53 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-04-14 14:04:53 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-04-14 14:04:53 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-04-14 14:04:53 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-04-14 14:04:53 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-04-14 14:04:53 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-04-14 14:04:53 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-04-14 14:04:53 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-04-14 14:04:53 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-04-14 14:04:53 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-04-14 14:04:53 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-04-14 14:04:53 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-14 14:04:53 -0500
+
+
+Started GET "/assets/full.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 14:04:53 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 14:04:53 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 14:04:53 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-14 14:04:53 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 14:04:53 -0500
+
+
+Started GET "/assets/main-bg-comp.jpg" for ::1 at 2016-04-14 14:04:54 -0500
+
+
+Started GET "/assets/part-time-bg.jpg" for ::1 at 2016-04-14 14:04:54 -0500
+
+
+Started GET "/assets/professional.jpg" for ::1 at 2016-04-14 14:04:54 -0500
+
+
+Started GET "/assets/full-time-bg.jpg" for ::1 at 2016-04-14 14:04:54 -0500
+
+
+Started GET "/full_time_bootcamp" for ::1 at 2016-04-14 14:08:57 -0500
+Processing by FullTimeBootcampController#index as HTML
+  Rendered full_time_bootcamp/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 55ms (Views: 54.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/full-time/software-dev2.jpg" for ::1 at 2016-04-14 14:08:57 -0500
+
+
+Started GET "/assets/full-time/nss_website_programs-small.png" for ::1 at 2016-04-14 14:08:57 -0500
+
+
+Started GET "/" for ::1 at 2016-04-14 14:09:16 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 59ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-14 14:09:26 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 53ms (Views: 52.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9613be93ec1991f80636bb17dbca81c83838ed9d9cb89293e1a84b0c3defee36.css?body=1" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/main.self-f53aaa23c4bb891c5fa6b470f4e960b3f65f57db963d7dca89801399fed29ab0.css?body=1" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/navbar.self-2f13285d4f6d23b88eee19514452529ddbbac1accc74a300ad13fb433ae05128.css?body=1" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-10e1f5781249e82dd2d4ef2c138c385ed5a9dd58aff9be24c6654569d4a98c64.css?body=1" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-72872022b41e56e4d2913485f0e9e357637fe8cf7329aa74e2aac07025149f45.css?body=1" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/full.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/full_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/part_time_bootcamp.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/NSS-logo-compact-small.png" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/professional.jpg" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/part-time-bg.jpg" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/full-time-bg.jpg" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/assets/main-bg-comp.jpg" for ::1 at 2016-04-14 14:09:27 -0500
+
+
+Started GET "/full_time_bootcamp" for ::1 at 2016-04-14 14:09:41 -0500
+Processing by FullTimeBootcampController#index as HTML
+  Rendered full_time_bootcamp/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 65ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/full-time/software-dev2.jpg" for ::1 at 2016-04-14 14:09:41 -0500
+
+
+Started GET "/assets/full-time/nss_website_programs-small.png" for ::1 at 2016-04-14 14:09:41 -0500
