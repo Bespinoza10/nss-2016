@@ -1,0 +1,2 @@
+module ProfessionalDevelopmentBootcampHelper
+end

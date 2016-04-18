@@ -1,0 +1,13 @@
+// Place all the styles related to the ProfessionalDevelopmentBootcamp controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.pro-dev-bg-header{
+  background-image: url('/assets/professional.jpg');
+  background-repeat: none;
+  padding: 180px 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
