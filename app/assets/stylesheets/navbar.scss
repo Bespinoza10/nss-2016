@@ -40,12 +40,12 @@ $grey: #646464;
   color: #fff;
 }
 
-
-
-.dropdown-menu {
+.navbar-default .navbar-nav .open .dropdown-menu {
   background: $orange;
   padding: 0;
+  color: #fff;
   li > a{
+    color: #fff;
     padding-top: 10px;
     padding-bottom: 10px;
     background: none;
@@ -63,6 +63,9 @@ $grey: #646464;
     -o-transition: background .3s ease-in-out, color .3s ease-in-out;
   }
 }
+
+
+
 
 
 li > a.hvr-sweep-to-bottom:before {
@@ -108,4 +111,34 @@ li > a.hvr-sweep-to-bottom:before {
   -webkit-transition: background .3s ease-in-out;
   -moz-transition: background .3s ease-in-out;
   -o-transition: background .3s ease-in-out;
+}
+
+
+// MOBILE VIEW MENU
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 15px;
+    padding: 9px 10px;
+    margin-top: 40px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: none;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+@media (max-width: 800px){
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  background: $grey;
+  margin-top: 50px;
+  }
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: $orange;
 }
