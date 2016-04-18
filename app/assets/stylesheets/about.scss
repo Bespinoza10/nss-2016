@@ -1,3 +1,17 @@
 // Place all the styles related to the About controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.about-bg-header{
+  background-image: url('/assets/about-us/about-us.jpg');
+  background-repeat: none;
+  padding: 230px 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.p-padding{
+  padding-top: 20px;
+}
