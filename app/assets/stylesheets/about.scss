@@ -1,6 +1,9 @@
 // Place all the styles related to the About controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+$orange: #fe9a22;
+$grey: #646464;
+
 
 
 .about-bg-header{
@@ -14,4 +17,8 @@
 
 .p-padding{
   padding-top: 20px;
+}
+
+h2.orange:hover{
+  color: $orange;
 }
