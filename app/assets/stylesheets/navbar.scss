@@ -1,6 +1,6 @@
 $orange: #fe9a22;
 $grey: #646464;
-
+$navGrey: rgba(100, 100, 100, 0.69);
 
 
 .navbar{
@@ -72,9 +72,7 @@ li > a.hvr-sweep-to-bottom:before {
   background: $orange;
 }
 
-.dropdown-menu li >a.hvr-sweep-to-right:before{
-  background: #fff;
-}
+
 .dropdown-menu li >a.hvr-underline-from-left:before{
   
   background: $grey;
@@ -85,23 +83,27 @@ li > a.hvr-sweep-to-bottom:before {
 
 
 .shrink{
-  background: $grey;
+  background: $navGrey;
   transition: background .3s ease-in-out;
   -webkit-transition: background .3s ease-in-out;
   -moz-transition: background .3s ease-in-out;
   -o-transition: background .3s ease-in-out;
-  min-height: 70px;
+  min-height: 100px;
   .navbar-brand img{
-    max-height: 50px;
+    max-height: 80px;
     margin-top: -5px;
     transition: max-height .3s ease-in-out;
   }
-  .navbar-right .nav-links{
-    padding-top: 30px;
-    transition: padding-top .3s ease-in-out;
-    -webkit-transition: padding-top .3s ease-in-out;
-    -moz-transition: padding-top .3s ease-in-out;
-    -o-transition: padding-top .3s ease-in-out;
+  .navbar-right{
+    min-height: 100px;
+    .nav-links{
+      padding-top: 40px;
+      transition: padding-top .3s ease-in-out;
+      -webkit-transition: padding-top .3s ease-in-out;
+      -moz-transition: padding-top .3s ease-in-out;
+      -o-transition: padding-top .3s ease-in-out;
+      min-height: 100px;
+    }
   }
 }
 
