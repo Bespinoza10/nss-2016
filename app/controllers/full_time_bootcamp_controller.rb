@@ -4,4 +4,12 @@ class FullTimeBootcampController < ApplicationController
     
   end
 
+  def ruby
+    
+  end
+
+  # def mean
+    
+  # end
+
 end
