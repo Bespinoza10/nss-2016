@@ -8,8 +8,8 @@ class FullTimeBootcampController < ApplicationController
     
   end
 
-  # def mean
+  def mean
     
-  # end
+  end
 
 end
