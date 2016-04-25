@@ -4,10 +4,6 @@ class FullTimeBootcampController < ApplicationController
     
   end
 
-  def front_end
-    
-  end
-
   def ruby
     
   end

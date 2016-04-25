@@ -1,0 +1,22 @@
+// Place all the styles related to the FrontEndDevelopment controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+// FRONT_END
+
+.front-bg-header{
+  background-image: url('/assets/front-end/front-end-dev2.jpg');
+  background-repeat: none;
+  padding: 230px 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.technologies{
+  max-width: 100px;
+  height: 80px;
+}
+

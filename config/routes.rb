@@ -8,5 +8,6 @@ Rails.application.routes.draw do
   get 'full_time_bootcamp/front_end' => 'full_time_bootcamp#front_end'
   resources :part_time_bootcamp
   resources :professional_development_bootcamp
+  resources :front_end_development
   resources :about
   end
