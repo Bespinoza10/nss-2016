@@ -28,8 +28,12 @@ class ProgramsController < ApplicationController
     
   end
 
+  def python
+    
+  end
+
   def ios_development
     
   end
-  
+
 end

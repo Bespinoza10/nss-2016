@@ -9,8 +9,7 @@ Rails.application.routes.draw do
   get 'programs/ruby' => 'programs#ruby'
   get 'programs/mean' => 'programs#mean'
   get 'programs/csharp' => 'programs#csharp'
-
-  resources :part_time_bootcamp
+  get 'programs/python' => 'programs#python'
   get 'programs/ios_development' => 'programs#ios_development'
 
   resources :about

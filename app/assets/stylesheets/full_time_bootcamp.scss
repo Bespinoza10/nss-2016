@@ -63,6 +63,11 @@ $grey: #646464;
   border: 0;
 }
 
+.technologies{
+  max-width: 100px;
+  height: 80px;
+  display: inline-block
+}
 
 // RUBY ONE RAILS
 
@@ -74,6 +79,7 @@ $grey: #646464;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  background-position: center;
 }
 
 
@@ -88,6 +94,7 @@ $grey: #646464;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  background-position: center;
 }
 
 
@@ -100,8 +107,58 @@ $grey: #646464;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  background-position: center;
 }
 
+// PYTHON
+
+.python-bg-header{
+  background-image: url('/assets/full-time/python/python-bg.jpg');
+  background-repeat: none;
+  padding: 230px 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+// FRONT_END
+
+.front-bg-header{
+  background-image: url('/assets/front-end/front-end-dev2.jpg');
+  background-repeat: none;
+  padding: 230px 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+
+// PART TIME
+
+
+.part-time-bg-header{
+  background-image: url('/assets/part-time-bg.jpg');
+  background-repeat: none;
+  padding: 230px 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+// PRO_DEV
+
+.pro-dev-bg-header{
+  background-image: url('/assets/professional.jpg');
+  background-repeat: none;
+  padding: 230px 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
 
 
 
