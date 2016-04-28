@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5, h6, body{
   font-weight: 400;
 }
 
+h1{
+  font-size: 40px;
+}
+
 
 .center-block{
   margin: 0 auto;
@@ -228,4 +232,11 @@ header .intro-text {
 .footer-links:hover{
   color: $orange;
   text-decoration: none;
+}
+
+// FONT_AWESOME
+
+i.fa{
+  font-size: 100px;
+  color: #fff;
 }

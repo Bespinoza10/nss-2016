@@ -16,12 +16,21 @@ $grey: #646464;
   color: $orange;
 }
 
-.orange{
+.orangeTwo, .orange{
   color: $orange;
+  text-decoration: none;
+  transition: color .2s ease-in-out;
 }
 
-.orange:hover{
+.orangeTwo:hover{
   color: $grey;
+  text-decoration: none;
+  transition: color .2s ease-in-out;
+}
+
+.orangeTwo:focus{
+  color: $grey;
+  text-decoration: none;
 }
 
 .white{
@@ -53,7 +62,20 @@ $grey: #646464;
   display: inline-block
 }
 
+.syllabus-title{
+  font-weight: bold;
+  padding-right: 15px;
+}
 
+
+.greyHr{
+  border-color: $grey;
+  opacity: .5;
+}
+
+.class-info{
+  background: $orange;
+}
 
 
 

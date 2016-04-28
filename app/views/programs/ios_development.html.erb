@@ -106,63 +106,509 @@ Do you want to add Apple’s iOS platform and the Swift and Objective-C language
   </div>
 </div>
 
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="true" aria-controls="collapseOne">
-          Collapsible Group Item #1
-        </a>
-      </h4>
-    </div>
-    <div id="collapsefour" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-</div>
+
+
+<!-- ACORDION  line 111-582 -->
 
 <div class="container">
-  <div class="row">
+  <div class="row padding-bottom-top">
+    <h1>Syllabus</h1>
     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    
+
       <div class="panel-heading" role="tab" id="headingOne">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          <h1 class="orange">SECTION 1: ELEMENTS OF AN IOS APP AND THE APPLE TOOLCHAIN</h1>
+        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          <h3 ><span class="syllabus-title">SECTION 1: </span> Elements of an iOS app and the Apple Toolchain</h3>
         </a>
       </div>
-      <hr>
-      <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-        <p class="parragraphs">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-        </p>
-        </div>
+      <hr class="greyHr">
+      <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+
+        <ul class="parragraphs">
+          <li>Xcode
+            <ul>
+              <li>Editor</li>
+              <li>Interface Builder (storyboards and xibs)   * Clang</li>
+              <li>Debugger</li>
+            </ul>
+          </li>
+          <li>iOS Simulator</li>
+          <li>Hello, World in iOS on Simulator and Device</li>
+          <li>Instruments
+            <ul>
+              <li>Profiler</li>
+              <li>Memory Management</li>
+              <li>UIAutomation</li>
+            </ul>
+          </li>
+          <li>Languages
+            <ul>
+              <li>ObjectiveC (history, features, comparison with other languages, e.g. C++)</li>
+              <li>Swift (history, features, comparison with other languages, e.g. Scala/F#/Rust)</li>
+            </ul>
+          </li>
+          <li>Overview of the Apple Frameworks</li>
+          <li>Git/GitHub</li>
+          <li>Packaging
+            <ul>
+              <li>Cocoapods/Frameworks</li>
+              <li>ipa’s</li>
+            </ul>
+          </li>
+          <li>Distribution
+            <ul>
+              <li>TestFlightApp.com/Crashlytics</li>
+              <li>The App Store/ Legal stuff / Submission Rules</li>
+            </ul>
+          </li>
+        </ul>
+        <hr class="greyHr">
       </div>
+
+
+      <!-- TAB #2 -->
 
       <div class="panel-heading" role="tab" id="headingTwo">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          <h1 class="orange">Collapsible Group Item #2</h1>
+        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <h3><span class="syllabus-title">SECTION 2: </span> Object Oriented Programming</h3>
         </a>
       </div>
+      <hr class="greyHr">
       <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-        <p class="parragraphs">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-        </p>
+        <ul class="parragraphs">
+          <li>Brief History and Principles of OOP</li>
+          <li>Swift Language Introduction</li>
+          <li>the Swift REPL/Playgrounds</li>
+          <li>Mutability/Immutability</li>
+          <li>Control Flow</li>
+          <li>Functions</li>
+          <li>Swift Type System</li>
+          <li>Enums/Structures/Classes/Protocols
+            <ul>
+              <li>Reference Types vs Value Types</li>
+            </ul>
+          </li>
+          <li>Generics</li>
+          <li>Closures</li>
+          <li>Custom Operators</li>
+          <li>Optional Chaining</li>
+          <li>Foundation Kit components</li>
+          <li>Memory Management (details of ARC as compared to Auto GC)
+            <ul>
+              <li>JSON handling in Swift</li>
+            </ul>
+          </li>
+        </ul>
+
+        <hr class="greyHr">
       </div>
 
+      <!-- TAB #3 -->
+
       <div class="panel-heading" role="tab" id="headingThree">
-        
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          <h1 class="orange">Collapsible Group Item #2</h1>
+        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <h3><span class="syllabus-title">SECTION 3: </span> User Interface Design With Model/View/Controller (MVC) Paradigm</h3>
         </a>
-        
       </div>
+      <hr class="greyHr">
       <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-        <p class="parragraphs">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-        </p>
+        <ul class="parragraphs">
+          <li>Application Lifecycles (UIApplication and UIApplicationDelegate)</li>
+          <li>Explanation of Model/View/Controller vs. Other Paradigms</li>
+          <li>Overview of UIKit components</li>
+          <li>Basic UIViewController
+            <ul>
+              <li>Lifecycle</li>
+              <li>Target/Action paradigm</li>
+              <li>Outlets</li>
+              <li>Delegation Methods</li>
+              <li>Instantiation via Storyboards</li>
+            </ul>
+          </li>
+          <li>Laying out MVC UIs
+            <ul>
+              <li>Subclassing UIViewController</li>
+              <li>Adding Outlets and Target/Actions</li>
+            </ul>
+          </li>
+          <li>View Controller hierarchies</li>
+          <li>View Controller Transitions/Segues
+            <ul>
+              <li>Push/pop (UINavigationController)</li>
+              <li>Modal</li>
+              <li>Intro to animations</li>
+            </ul>
+          </li>
+          <li>Other View Controllers
+            <ul>
+              <li>UITableViewController</li>
+              <li>UICollectionViewController</li>
+              <li>UITabBarController</li>
+            </ul>
+          </li>
+          <li>Apps
+            <ul>
+              <li>MainViewController app with buttons and textfields</li>
+              <li>Segue to a simple TableView scene with static data</li>
+              <li>Segue to a simple CollectionView scene with static data</li>
+              <li>TableView based To-Do list </li>
+            </ul>
+          </li>
+        </ul>
+
+        <hr class="greyHr">
+      </div>
+
+      <!-- TAB #4 -->
+
+      <div class="panel-heading" role="tab" id="headingFour">
+        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          <h3><span class="syllabus-title">SECTION 4: </span> User Interface Design (Views)</h3>
+        </a>
+      </div>
+      <hr class="greyHr">
+      <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+        <ul class="parragraphs">
+          <li>UIView and subclasses</li>
+          <li>The View hiearchy and lifecycle</li>
+          <li>Coordinate Systems</li>
+          <li>Drawing (Core Graphics)
+            <ul>
+              <li>Graphics Contexts</li>
+              <li>Transparency</li>
+            </ul>
+          </li>
+          <li>Touch and Gesture handling</li>
+          <li>Printing
+            <ul>
+              <li>Simple Draw App</li>
+            </ul>
+          </li>
+        </ul>
+
+        <hr class="greyHr">
+      </div>
+
+      <!-- TAB #5 -->
+
+      <div class="panel-heading" role="tab" id="headingFive">
+        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          <h3><span class="syllabus-title">SECTION 5: </span> Graphics</h3>
+        </a>
+      </div>
+      <hr class="greyHr">
+      <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+        <ul class="parragraphs">
+          <li>UIImage/UIImageView</li>
+          <li>CoreGraphics</li>
+          <li>Background compositing
+            <ul>
+              <li>Graphics contexts</li>
+              <li>Image manipulation</li>
+              <li>Scale/Rotate/Transform</li>
+              <li>Special effects</li>
+              <li>Simple Photo Album </li>
+            </ul>
+          </li>
+        </ul>
+
+        <hr class="greyHr">
+      </div>
+
+
+      <!-- TAB #6 -->
+
+      <div class="panel-heading" role="tab" id="headingSix">
+        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          <h3><span class="syllabus-title">SECTION 6: </span> Auto Layout</h3>
+        </a>
+      </div>
+      <hr class="greyHr">
+      <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+        <ul class="parragraphs">
+          <li>Interface Builder Review
+            <ul>
+              <li>Setting Frames and Bounds</li>
+            </ul>
+          </li>
+          <li>Creating constraints
+            <ul>
+              <li>Relations</li>
+              <li>Multipliers, Constants and Priorities</li>
+            </ul>
+          </li>
+          <li>Dynamic constraints
+            <ul>
+              <li>Constraints as Outlets</li>
+            </ul>
+          </li>
+          <li>Testing Rotations and resizing</li>
+          <li>Resolving Constraint Conflicts
+            <ul>
+              <li>Simple Form App with constraint handling</li>
+              <li>Capstone project planning/support </li>
+            </ul>
+          </li>
+        </ul>
+
+        <hr class="greyHr">
+      </div>
+
+      <!-- TAB #7 -->
+
+      <div class="panel-heading" role="tab" id="headingSeven">
+        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+          <h3><span class="syllabus-title">SECTION 7: </span> Animations</h3>
+        </a>
+      </div>
+      <hr class="greyHr">
+      <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+        <ul class="parragraphs">
+          <li>Review of some functional programming concepts
+            <ul>
+              <li>Closures</li>
+              <li>Types and Generics</li>
+            </ul>
+          </li>
+          <li>UIView Animation</li>
+          <li>Dynamic Animation
+            <ul>
+              <li>gravity</li>
+              <li>collisions</li>
+              <li>behaviors</li>
+            </ul>
+          </li>
+          <li>UIView
+            <ul>
+              <li>Use dynamic animation to bounce a ball around </li>
+            </ul>
+          </li>
+        </ul>
+
+        <hr class="greyHr">
+      </div>
+
+      <!-- TAB #8 -->
+
+      <div class="panel-heading" role="tab" id="headingEight">
+        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+          <h3><span class="syllabus-title">SECTION 8: </span> Scrolling Views</h3>
+        </a>
+      </div>
+      <hr class="greyHr">
+      <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
+        <ul class="parragraphs">
+          <li>Overview of UIScrollView, UITableView and UICollectionView</li>
+          <li>Coordinate System review</li>
+          <li>Constraint handling</li>
+          <li>LifeCycles</li>
+          <li>Delegation</li>
+          <li>Datasources</li>
+          <li>Performance and memory management topics</li>
+          <li>Infinite scrollview/carousel</li>
+        </ul>
+
+        <hr class="greyHr">
+      </div>
+
+      <!-- TAB #9 -->
+
+      <div class="panel-heading" role="tab" id="headingNine">
+        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+          <h3><span class="syllabus-title">SECTION 9: </span> Advanced Animation</h3>
+        </a>
+      </div>
+      <hr class="greyHr">
+      <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
+        <ul class="parragraphs">
+          <li>Differences between the iPhone and the iPad</li>
+          <li>Layouts for CollectionViews</li>
+          <li>Animating Layouts</li>
+          <li>Using Multiple Layouts (and animating between layouts with one UIViewController)</li>
+          <li>Animations with multiple UICollectionViewControllers</li>
+          <li>Build a complex spinning view </li>
+        </ul>
+
+        <hr class="greyHr">
+      </div>
+
+      <!-- TAB #10 -->
+
+      <div class="panel-heading" role="tab" id="headingTen">
+        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+          <h3><span class="syllabus-title"> SECTION 10: </span> Networking</h3>
+        </a>
+      </div>
+      <hr class="greyHr">
+      <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
+        <ul class="parragraphs">
+          <li>Intro to Thread Management
+            <ul>
+              <li>dispatch_async</li>
+              <li>NSOperationQueue/NSOperation</li>
+            </ul>
+          </li>
+          <li>HTTP Get/Post/Delete</li>
+          <li>Consuming RESTful Web Services
+            <ul>
+              <li>Fetching</li>
+              <li>Parsing of JSON or XML</li>
+            </ul>
+          </li>
+          <li>Using UIWebView</li>
+          <li>Security
+            <ul>
+              <li>OAuth2
+                <ul>
+                  <li>App IDs</li>
+                  <li>Grant Codes</li>
+                  <li>Access Tokens</li>
+                  <li>Redirects</li>
+                </ul>
+              </li>
+              <li>Keychains</li>
+            </ul>
+          </li>
+          <li>Display of Fetched and Parsed Data</li>
+          <li>Service Review:
+            <ul>
+              <li>Twitter</li>
+              <li>Facebook</li>
+              <li>Instagram</li>
+            </ul>
+          </li>
+          <li>fetch twitter feed and display in a table view</li>
+        </ul>
+
+        <hr class="greyHr">
+      </div>
+
+      <!-- TAB #11 -->
+
+      <div class="panel-heading" role="tab" id="headingEleven">
+        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+          <h3><span class="syllabus-title"> SECTION 11: </span> Database Management on iOS Devices</h3>
+        </a>
+      </div>
+      <hr class="greyHr">
+      <div id="collapseEleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEleven">
+        <ul class="parragraphs">
+          <li>Data Models
+            <ul>
+              <li>Entities</li>
+              <li>Attributes</li>
+              <li>Relationships</li>
+              <li>FetchedProperties</li>
+            </ul>
+          </li>
+          <li>Simple UI: NSFetchedResultsController</li>
+          <li>Persistent Database (NSPersistentStoreCoordinator)</li>
+          <li>Object Graph (NSManagedObjectContext)</li>
+          <li>Persistent Objects (NSManagedObject)</li>
+          <li>Queries (NSFetchRequest, NSPredicate)</li>
+          <li>Inserts/Updates/Deletes (NSManagedObjectContext again)</li>
+          <li>Store twitter feed from networking app into a local database</li>
+          <li>Capstone support session</li>
+        </ul>
+
+        <hr class="greyHr">
+      </div>
+
+      <!-- TAB #12 -->
+
+      <div class="panel-heading" role="tab" id="headingTwelve">
+        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+          <h3><span class="syllabus-title"> SECTION 12: </span> Location Based Apps</h3>
+        </a>
+      </div>
+      <hr class="greyHr">
+      <div id="collapseTwelve" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwelve">
+        <ul class="parragraphs">
+          <li>Location Basics
+            <ul>
+              <li>Lat/Lon/Alt</li>
+              <li>Maps and Projections</li>
+            </ul>
+          </li>
+          <li>CoreLocation elements
+            <ul>
+              <li>Actual location (CLLocation)</li>
+              <li>Starting and stopping location updates (CLLocationManager)</li>
+              <li>Receiving updates (CLLocationManagerDelegate)</li>
+              <li>Displaying location (MKMapView)</li>
+              <li>Annotations (MKAnnotation/MKAnnotationView)</li>
+              <li>Viewpoints (MKMapCamera)</li>
+              <li>Searching Maps (MKLocalSearch)</li>
+              <li>Going Places (MKDirections)</li>
+              <li>Map Overlays (MKOverlay)</li>
+              <li>Beacons</li>
+            </ul>
+          </li>
+          <li>Simple app showing user position with graphics overlays</li>
+          <li>Capstone Support Session</li>
+        </ul>
+
+        <hr class="greyHr">
+      </div>
+
+      <!-- TAB #13 -->
+
+      <div class="panel-heading" role="tab" id="headingThirteen">
+        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+          <h3><span class="syllabus-title"> SECTION 13: </span> Onboard Sensors</h3>
+        </a>
+      </div>
+      <hr class="greyHr">
+      <div id="collapseThirteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThirteen">
+        <ul class="parragraphs">
+          <li>Using the Camera and the Film Roll
+            <ul>
+              <li>UIImagePickerController</li>
+            </ul>
+          </li>
+          <li>Core Motion
+            <ul>
+              <li>Accelerometer</li>
+              <li>Gyro</li>
+              <li>Magnetometer</li>
+            </ul>
+          </li>
+          <li>Capstone Presentation</li>
+        </ul>
+
+        <hr class="greyHr">
       </div>
 
     </div>
   </div>
 </div>
+
+<div class="container-fluid class-info">
+  <div class="container">
+    <div class="row padding-bottom-top">
+      <div class="col-md-3">
+        <i class="fa fa-clock-o" aria-hidden="true"></i>
+        <h3>Schedule</h3>
+      </div>
+
+      <div class="col-md-3">
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+        <h3>Location</h3>
+      </div>
+
+      <div class="col-md-3">
+        <i class="fa fa-calendar" aria-hidden="true"></i>
+        <h3>Dates</h3>
+      </div>
+
+      <div class="col-md-3">
+        <i class="fa fa-money" aria-hidden="true"></i>
+        <h3>Tuition</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+

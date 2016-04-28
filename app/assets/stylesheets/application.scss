@@ -12,9 +12,13 @@
  *
  *= require_tree .
  *= require_self
+ *= require font-awesome
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "main";
 @import 'hover';
+@import "font-awesome";
+
+
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300);
