@@ -37,6 +37,14 @@ $grey: #646464;
   color: #fff;
 }
 
+.grey{
+  color: $grey;
+}
+
+.grey:hover{
+  color: $grey;
+}
+
 .orange-bg{
   background: $orange;
 }
