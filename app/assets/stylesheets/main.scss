@@ -42,7 +42,8 @@ h1{
 }
 
 .padding-bottom-top{
-  padding: 5% 0;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 header {
@@ -123,12 +124,13 @@ header .intro-text {
 /////////////////////// Services Backgrounds ///////////////////////
 
 .full-time-bg{
-  background-image: url('/assets/full-time-bg.jpg');
+  background-image: url('/assets/full-time/full-time-bg1.jpg');
   background-repeat: none;
   padding: 160px 0;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  background-position: center;
 }
 
 .part-time-bg{
@@ -138,6 +140,7 @@ header .intro-text {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  background-position: center;
 }
 
 .professional-bg{
@@ -147,6 +150,7 @@ header .intro-text {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  background-position: center;
 }
 
 .programs-bg-heading{
