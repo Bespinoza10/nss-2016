@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   get 'programs/python' => 'programs#python'
   get 'programs/ios_development' => 'programs#ios_development', :path => 'programs/ios-development'
   get 'programs/ui_ux' => 'programs#ui-ux-design', :path => 'programs/ui-ux-design'
+  get 'programs/upcoming' => 'programs#upcoming-programs', :path => 'programs/upcoming-programs'
 
   resources :about
   end
