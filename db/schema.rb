@@ -11,6 +11,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20160527151628) do
+
+  create_table "courses", force: :cascade do |t|
+    t.string   "name"
+    t.string   "type"
+    t.string   "date"
+    t.string   "schedule"
+    t.string   "location"
+    t.text     "wyl"
+    t.text     "wyl_two"
+    t.text     "hard_soft"
+    t.text     "skills"
+    t.text     "pricing"
+    t.string   "tuition"
+    t.text     "standard_tuition"
+    t.text     "apprentice_tuition"
+    t.text     "option_one"
+    t.text     "option_two"
+    t.text     "option_three"
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
+  end
 
 end

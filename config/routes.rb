@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   root 'welcome#index'
+  resources :courses
   get 'programs/full_time' => 'programs#full_time', :path => 'programs/full-time'
   get 'programs/part_time' => 'programs#part_time', :path => 'programs/part-time'
   get 'programs/professional_development' => 'programs#professional_development', :path => 'programs/professional-development'
