@@ -1,13 +1,45 @@
 <%= @course.name %>
+<br>
 <%= @course.type_of_program %>
+<br>
 <%= @course.date %>
+<br>
 <%= @course.schedule %>
+<br>
 <%= @course.location %>
+<br>
 <%= @course.tuition %>
+<br>
 <%= @course.wyl %>
+<br>
 <%= @course.wyl_two %>
+<br>
 <%= @course.hard_soft %>
+<br>
 <%= @course.skills %>
-<%= @course.pricing %>
-<%= @course.standard_tuition %>
-<%= @course.apprentice_tuition %>
+<br>
+
+<%= @course.option_one %>
+<%= @course.option_two %>
+<%= @course.option_three %>
+
+<br>
+<% if @course.pricing.blank? %>
+
+  <%= @course.standard_tuition %>
+  <br>
+  <%= @course.apprentice_tuition %>
+  <br>
+
+<% else %>
+
+  <h1>Pricing</h1>
+  <%= @course.pricing %>
+
+  <%= @course.standard_tuition %>
+  <br>
+
+  <%= @course.apprentice_tuition %>
+  <br>
+
+<%end%>

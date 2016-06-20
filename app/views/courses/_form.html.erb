@@ -1,103 +1,82 @@
-<div class="container">
-  <div class="row">
-    <div class="col-sm-12">
-      <div class="col-sm-6 center-block">
-        <%= form_for @course do |f| %>
-          <% if @course.errors.any?%>
-            <h2><%= pluralize(@course.errors.count, "error") %> prevented this client from saving:</h2>
-            <ul>
-              <% @course.errors.full_messages.each do |msg| %>
-                <li><%= msg %></li>
-              <%end%>
-            </ul>
-          <%end%>
-
-          <div class="form-group">
-            <%= f.label :name %>
-            <%= f.text_field :name, {class: 'form-control form-input'} %>
-          </div>
-
-          <div class="form-group">
-            <%= f.label :type_of_program %>
-            <%= f.text_field :type_of_program, {class: 'form-control form-input'} %>
-          </div>
-
-          <div class="form-group">
-            <%= f.label :date %>
-            <%= f.text_field :date, {class: 'form-control form-input'} %>
-          </div>
-
-          <div class="form-group">
-            <%= f.label :schedule %>
-            <%= f.text_field :schedule, {class: 'form-control form-input'} %>
-          </div>
-
-          <div class="form-group">
-            <%= f.label :location %>
-            <%= f.text_field :location, {class: 'form-control form-input'} %>
-          </div>
-
-          <div class="form-group">
-            <%= f.label :tuition %>
-            <%= f.text_field :tuition, {class: 'form-control form-input'} %>
-          </div>
-          <h1>What You'll Learn</h1>
-          <div class="form-group">
-            <%= f.label "First Parragraph" %>
-            <%= f.text_area :wyl, :rows => "10", class: "form-control form-input" %>
-          </div>
-
-          <div class="form-group">
-            <%= f.label "Second Parragraph" %>
-            <%= f.text_area :wyl, :rows => "10", class: "form-control form-input" %>
-          </div>
-          <h1>Requirements</h1>
-          <div class="form-group">
-            <%= f.label "Hardware and Software" %>
-            <%= f.text_area :hard_soft, :rows => "10", class: "form-control form-input" %>
-          </div>
-
-          <div class="form-group">
-            <%= f.label :skills %>
-            <%= f.text_area :skills, :rows => "10", class: "form-control form-input" %>
-          </div>
-
-          <h1>Pricing</h1>
-          <div class="form-group">
-            <%= f.label "Pricing Description" %>
-            <%= f.text_area :pricing, :rows => "10", class: "form-control form-input" %>
-          </div>
-
-          <h3>Standard Tuition</h3>
-          <div class="form-group">
-            <%= f.text_area :standard_tuition, :rows => "10", class: "form-control form-input" %>
-          </div>
-
-          <h3>Apprentice Tuition</h3>
-          <div class="form-group">
-            <%= f.text_area :apprentice_tuition, :rows => "10", class: "form-control form-input" %>
-          </div>
-
-          <!-- <h1>Evening Standard Tuition</h1>
-          <%= f.label :option_one %>
-          <div class="form-group">
-            <%= f.text_area :option_one, :rows => "10", class: "form-control form-input" %>
-          </div>
-
-          <div class="form-group">
-            <%= f.label :option_two %>
-            <%= f.text_area :option_two, :rows => "10", class: "form-control form-input" %>
-          </div>
-
-          <div class="form-group">
-            <%= f.label :option_three %>
-            <%= f.text_area :option_three, :rows => "10", class: "form-control form-input" %>
-          </div> -->
-
-          <button type="submit" class="btn sendbtn">Submit</button>
-
+<div class="col-md-10 center-block">
+  <%= form_for @course do |f| %>
+    <% if @course.errors.any?%>
+      <h2><%= pluralize(@course.errors.count, "error") %> prevented this client from saving:</h2>
+      <ul>
+        <% @course.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
         <%end%>
-      </div>
+      </ul>
+    <%end%>
+
+    <div class="form-group">
+      <%= f.label :name %>
+      <%= f.text_field :name, {class: 'form-control form-input'} %>
     </div>
-  </div>
+
+    <div class="form-group">
+      <%= f.label :type_of_program %>
+      <%= f.text_field :type_of_program, {class: 'form-control form-input'} %>
+    </div>
+
+    <div class="form-group">
+      <%= f.label :date %>
+      <%= f.text_field :date, {class: 'form-control form-input'} %>
+    </div>
+
+    <div class="form-group">
+      <%= f.label :schedule %>
+      <%= f.text_field :schedule, {class: 'form-control form-input'} %>
+    </div>
+
+    <div class="form-group">
+      <%= f.label :location %>
+      <%= f.text_field :location, {class: 'form-control form-input'} %>
+    </div>
+
+    <div class="form-group">
+      <%= f.label :tuition %>
+      <%= f.text_field :tuition, {class: 'form-control form-input'} %>
+    </div>
+    <h1>What You'll Learn</h1>
+    <div class="form-group">
+      <%= f.label "First Parragraph" %>
+      <%= f.text_area :wyl, :rows => "10", class: "form-control form-input" %>
+    </div>
+
+    <div class="form-group">
+      <%= f.label "Second Parragraph" %>
+      <%= f.text_area :wyl, :rows => "10", class: "form-control form-input" %>
+    </div>
+    <h1>Requirements</h1>
+    <div class="form-group">
+      <%= f.label "Hardware and Software" %>
+      <%= f.text_area :hard_soft, :rows => "10", class: "form-control form-input" %>
+    </div>
+
+    <div class="form-group">
+      <%= f.label :skills %>
+      <%= f.text_area :skills, :rows => "10", class: "form-control form-input" %>
+    </div>
+
+    <h1>Pricing</h1>
+    <div class="form-group">
+      <%= f.label "Pricing Description" %>
+      <%= f.text_area :pricing, :rows => "10", class: "form-control form-input" %>
+    </div>
+
+    <h3>Standard Tuition</h3>
+    <div class="form-group">
+      <%= f.text_area :standard_tuition, :rows => "10", class: "form-control form-input" %>
+    </div>
+
+    <h3>Apprentice Tuition</h3>
+    <div class="form-group">
+      <%= f.text_area :apprentice_tuition, :rows => "10", class: "form-control form-input" %>
+    </div>
+
+
+    <button type="submit" class="btn sendbtn">Submit</button>
+
+  <%end%>
 </div>

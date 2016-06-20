@@ -27,6 +27,9 @@ ActiveRecord::Schema.define(version: 20160527151628) do
     t.string   "tuition"
     t.text     "standard_tuition"
     t.text     "apprentice_tuition"
+    t.text     "option_one"
+    t.text     "option_two"
+    t.text     "option_three"
     t.datetime "created_at",         null: false
     t.datetime "updated_at",         null: false
   end

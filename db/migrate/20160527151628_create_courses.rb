@@ -14,6 +14,9 @@ class CreateCourses < ActiveRecord::Migration
       t.string :tuition
       t.text :standard_tuition
       t.text :apprentice_tuition
+      t.text :option_one
+      t.text :option_two
+      t.text :option_three
 
       t.timestamps null: false
     end
