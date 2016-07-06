@@ -4,6 +4,8 @@
 $orange: #fe9a22;
 $grey: #646464;
 
+
+
 .upcoming-programs-table{
   thead{
     font-size: 20px;
@@ -21,4 +23,14 @@ a.btn-apply-orange{
   border-radius: 0px;
   border: none;
   font-size: 20px;
+}
+
+// Courses/new form
+.upcoming-programs-form{
+  box-shadow: 0px 5px 10px 0px rgb(200, 200, 200);
+  .form-control{
+    border: none;
+    background: rgb(223, 223, 223);
+    color: $orange;
+  }
 }

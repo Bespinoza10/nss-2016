@@ -72,10 +72,14 @@ li > a.hvr-sweep-to-bottom:before {
 
 
 .dropdown-menu li >a.hvr-underline-from-left:before{
-  
+
   background: $grey;
 }
 
+
+.nav-courses{
+  background: $navGrey;
+}
 
 // AFFIX STYLING ON SCROLL
 
