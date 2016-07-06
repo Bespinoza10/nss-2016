@@ -2,7 +2,8 @@ class CoursesController < ApplicationController
   before_action :find_course, only: [:show, :edit, :update, :destroy]
 
   def index
-    @course = Course.all.order("created_at desc")
+    @courses = Course.all.order("created_at desc")
+    
   end
 
   def new
@@ -13,9 +14,9 @@ class CoursesController < ApplicationController
     @course = Course.new course_params
 
     if @course.save
-      redirect_to @course, notice: "Orale Oscar! Ya stufas! Agregaste un nuevo Cliente Residential."
+      redirect_to @course, notice: "Course Created!"
     else
-      render 'new', notice: "Chiiiinnnnnnn! A chuchita la bolsearon! No se pudo agregar el Cliente Residential"
+      render 'new', notice: "Sorry Course failed to create!!!"
     end
   end
 
@@ -28,7 +29,7 @@ class CoursesController < ApplicationController
 
   def update
     if @course.update course_params
-      redirect_to @course, notice: "Orale! Actualisaste el Cliente: #{@course.name}."
+      redirect_to @course, notice: "You Updated: #{@course.name}."
     else
       render 'edit'
     end
