@@ -25,10 +25,11 @@
         <% @courses.each do |course|%>
           <tr>
             <td>
-              <%= course.name %>
+              <%= link_to course.name, course, class: "program-table-links"%>
+
             </td>
             <td>
-              <%= course.type_of_program %>
+              <%= link_to course.type_of_program, course, class: "program-table-links"%>
             </td>
             <td>
               <%= course.date %>

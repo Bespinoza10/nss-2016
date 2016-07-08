@@ -12,6 +12,9 @@ $grey: #646464;
 
   }tbody{
     font-size: 18px;
+    color: $grey;
+  }tbody a.program-table-links{
+    font-size: 18px;
     color: $orange
   }
 }
