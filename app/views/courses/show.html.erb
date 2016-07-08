@@ -1,24 +1,47 @@
-<style>
-.upcoming_programs_header{
-  background-image: url(<%= upcoming_programs_background %>);
-  background-repeat: none;
-  padding: 230px 0;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  background-position: center;
-}
-</style>
 
-<div class="container-fluid upcoming_programs_header">
+<div class="container-fluid upcoming_programs_background">
   <div class="row">
     <div class="col-md-12">
-      <h1 class="text-center program-title"><%= @course.name%></h1>
+      <h1 class="text-center program-title"> Full-Time Web Developer Bootcamp, <%=@course.back_end_lang%> And <%= @course.back_end_framework%></h1>
     </div>
   </div>
 </div>
 
+
 <div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>What You'll Learn</h1>
+    </div>
+    <div class="col-md-6">
+      <p class="parragraphs">The Web Developer Bootcamp is a six-month, full-time program. The curriculum teaches the skills and technologies required to become a full-stack software developer.
+        For most of our students this course is also their introduction to programming.
+        The core technologies that students use in this course are the three standard languages of the web: HTML, CSS and JavaScript.
+        This course prepares students to work and build the front-end code associated with websites, web apps and hybrid mobile applications.
+      </p>
+    </div>
+
+    <div class="col-md-6">
+      <ul>
+        <li class="parragraphs">Program with <%=@course.back_end_lang%> and the <%= @course.back_end_framework%> framework</li>
+        <li class="parragraphs">HTML, CSS and Javascript</li>
+        <li class="parragraphs">Web application development and design</li>
+        <li class="parragraphs">Application deployment and management</li>
+        <li class="parragraphs">Skills necessary to join a development team as a junior developer</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- <div class="container">
   <div class="row">
     <%= @course.name %>
     <br>
@@ -87,4 +110,4 @@
       <%= @course.tuition %>
     <% end %>
   </div>
-</div>
+</div> -->

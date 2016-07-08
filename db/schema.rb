@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160527151628) do
+ActiveRecord::Schema.define(version: 20160708184028) do
 
   create_table "courses", force: :cascade do |t|
     t.string   "name"
@@ -32,6 +32,8 @@ ActiveRecord::Schema.define(version: 20160527151628) do
     t.text     "option_three"
     t.datetime "created_at",         null: false
     t.datetime "updated_at",         null: false
+    t.string   "back_end_lang"
+    t.string   "back_end_framework"
   end
 
 end

@@ -3,7 +3,7 @@ class CoursesController < ApplicationController
 
   def index
     @courses = Course.all.order("created_at desc")
-    
+
   end
 
   def new
@@ -43,7 +43,7 @@ class CoursesController < ApplicationController
   private
 
   def course_params
-    params.require(:course).permit(:name, :type_of_program, :date, :schedule, :location, :wyl, :wyl_two, :hard_soft, :skills, :pricing, :tuition, :standard_tuition, :apprentice_tuition, :option_one, :option_two, :option_three)
+    params.require(:course).permit(:back_end_lang, :back_end_framework, :type_of_program, :date, :schedule, :location, :wyl, :wyl_two, :hard_soft, :skills, :pricing, :tuition, :standard_tuition, :apprentice_tuition, :option_one, :option_two, :option_three)
   end
 
   def find_course
