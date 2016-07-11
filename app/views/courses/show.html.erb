@@ -78,32 +78,173 @@ $('.upcoming_programs_background').css({'background-image': 'url(/assets/upcomin
   </div>
 </div>
 
+<% if @course.type_of_program == "Bootcamp (6 months)" %>
 <div class="container">
   <div class="row program-content padding-bottom-top">
     <div class="col-md-12">
       <h1>Requirements</h1>
     </div>
     <div class="col-md-6">
-      <p class="parragraphs">The Web Developer Bootcamp is a six-month, full-time program. The curriculum teaches the skills and technologies required to become a full-stack software developer.
-        For most of our students this course is also their introduction to programming.
-        The core technologies that students use in this course are the three standard languages of the web: HTML, CSS and JavaScript.
-        This course prepares students to work and build the front-end code associated with websites, web apps and hybrid mobile applications.
-      </p>
+      <h3>HARDWARE & SOFTWARE</h3>
+      <ul>
+        <li class="parragraphs">Personal Laptop with 4 GB RAM and at least 20GB free disk space</li>
+      </ul>
     </div>
 
     <div class="col-md-6">
+      <h3>SKILLS</h3>
       <ul>
-        <li class="parragraphs">Program with <%=@course.back_end_lang%> and the <%= @course.back_end_framework%> framework</li>
-        <li class="parragraphs">HTML, CSS and Javascript</li>
-        <li class="parragraphs">Web application development and design</li>
-        <li class="parragraphs">Application deployment and management</li>
-        <li class="parragraphs">Skills necessary to join a development team as a junior developer</li>
+        <li class="parragraphs">Structured Thinking </li>
+        <li class="parragraphs">Curiosity </li>
+        <li class="parragraphs">Demonstrated Self-Motivated Learning </li>
       </ul>
     </div>
   </div>
 </div>
 
+<%elsif @course.type_of_program == "Part-time Class (12 months)"%>
+<div class="container">
+  <div class="row program-content padding-bottom-top">
+    <div class="col-md-12">
+      <h1>Requirements</h1>
+    </div>
+    <div class="col-md-6">
+      <h3>HARDWARE & SOFTWARE</h3>
+      <ul>
+        <li class="parragraphs">Personal Laptop with 4 GB RAM and at least 20GB free disk space</li>
+      </ul>
+    </div>
 
+    <div class="col-md-6">
+      <h3>SKILLS</h3>
+      <ul>
+        <li class="parragraphs">Intermediate level CSS, HTML and Javascript </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<%end%>
+
+<div class="container">
+  <div class="row padding-bottom-top">
+    <h1>Syllabus</h1>
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+
+      <div class="panel-heading" role="tab" id="headingOne">
+        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          <h3>Front-End Development Foundations</h3>
+        </a>
+      </div>
+      <hr class="greyHr">
+      <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+
+        <ul class="parragraphs">
+          <p class="parragraphs">The first half of this course covers the materials in the <a href="../programs/front-end" target="_blank" class="orange">Front-End Development Foundations</a>.</p>
+        </ul>
+        <hr class="greyHr">
+      </div>
+
+
+      <!-- TAB #2 -->
+
+      <div class="panel-heading" role="tab" id="headingTwo">
+        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <h3>Backend: <%= @course.back_end_lang%> and <%=@course.back_end_framework%></h3>
+        </a>
+      </div>
+      <hr class="greyHr">
+      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+        <ul class="parragraphs">
+          <%if @course.back_end_lang == "Python"%>
+            <p>The second half of this course covers <a class="orange" href="../programs/python">backend development with <%= @course.back_end_lang%> and <%=@course.back_end_framework%></a>.</p>
+          <%elsif @course.back_end_lang == "C#"%>
+            <p>The second half of this course covers <a class="orange" href="../programs/csharp">backend development with <%= @course.back_end_lang%> and <%=@course.back_end_framework%></a>.</p>
+          <%elsif @course.back_end_lang == "Javascript"%>
+            <p>The second half of this course covers <a class="orange" href="../programs/mean">backend development with <%= @course.back_end_lang%> and <%=@course.back_end_framework%></a>.</p>
+          <%elsif @course.back_end_lang == "Ruby"%>
+            <p>The second half of this course covers <a class="orange" href="../programs/ruby">backend development with <%= @course.back_end_lang%> and <%=@course.back_end_framework%></a>.</p>
+          <%end%>
+        </ul>
+
+        <hr class="greyHr">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row program-content padding-bottom-top">
+    <div class="col-md-12">
+      <h1>Pricing</h1>
+
+    <% if @course.type_of_program == "Part-time Class (12 months)" %>
+      <p class="parragraphs">There are multiple payment options for the Evening Program. With each payment option, you retain the flexibility to apply to take the second half of the program during the day.</p>
+    </div>
+    <div class="col-md-4">
+      <h3 class="orange">Option 1</h3>
+      <p class="parragraphs">Full Payment up-front</p>
+      <br>
+      <p class="parragraphs">Your cost is $10,000</p>
+      <ul>
+        <li class="parragraphs">$4,000 initial deposit upon your acceptance into the program, in order to hold your seat.</li>
+        <li class="parragraphs">$6,000 balance is due on or before the first day of class</li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <h3 class="orange">Option 2</h3>
+      <p class="parragraphs">Initial deposit plus two payments</p>
+      <br>
+      <p class="parragraphs">Your cost is $10,500</p>
+      <ul>
+        <li class="parragraphs">$4,000 initial deposit upon your acceptance into the program, in order to hold your seat.</li>
+        <li class="parragraphs">$2,000 balance is due on or before the first day of class</li>
+        <li class="parragraphs">$4,500 payment due on or before the first day of the second half of the program (i.e. the beginning of your seventh month in the program)</li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <h3 class="orange">Option 3</h3>
+      <p class="parragraphs">Initial deposit plus two payments</p>
+      <br>
+      <p class="parragraphs">Your cost is $11,000</p>
+      <ul>
+        <li class="parragraphs">$4,000 initial deposit upon your acceptance into the program, in order to hold your seat.</li>
+        <li class="parragraphs">$1,000 balance is due on or before the first day of class</li>
+        <li class="parragraphs">$600 per month for 10 months starting with the second month of the program.</li>
+      </ul>
+    </div>
+
+    <% elsif @course.type_of_program == "Bootcamp (6 months)"%>
+
+    <div class="col-md-12">
+      <p class="parragraphs">There are two ways to pay for your training at NSS: our standard tuition or by qualifying as a Nashville Tech Apprentice. Out of a total of 24 seats in each cohort at NSS, our goal is to have 12 be Nashville Tech Apprentices and the remainder paying standard tuition. A limited number of grants and scholarships are also available for students from underrepresented groups like women and minorities.</p>
+    </div>
+    <div class="col-md-6">
+      <h3 class="orange">Standard Tuition</h3>
+      <p class="parragraphs">The standard tuition program began in 2014 - previously seats in our classes were only available to Nashville residents or those with strong local connections. With this program we are now able to open up admission to Nashville Software School to:</p>
+      <ul>
+        <li class="parragraphs">Students who are shopping across the U.S. for a programming bootcamp and are interested in a six-month program like ours.</li>
+        <li class="parragraphs">Local residents who want to graduate unencumbered by the requirement to pay the school back for their training, or go to work for one of our partners.  You may desire to work on your own tech startup or you may desire to live somewhere other than Nashville.</li>
+        <li class="parragraphs">Students whose tuition is being reimbursed by an employer.</li>
+      </ul>
+    </div>
+
+    <div class="col-md-6">
+      <h3 class="orange">Nashville Tech Apprentice Program</h3>
+      <p class="parragraphs">A Nashville Software School Tech Apprenticeship allows you to defer most of the cost of your training until you graduate and go to work as a software developer. You will pay us $1,000 in tuition on acceptance to the program and then nothing else until after graduation. After graduation, if you accept a position through our placement program from one of our partner companies, the rest of your tuition will be reimbursed by your employer. If you choose to go to work for someone other than one of our partners, we'll work with you to either negotiate payment from your new employer and/or work out a payment plan by which you can reimburse the school.</p>
+      <ul class="default-ul">
+        <li class="parragraphs">Initial tuition payment of $1,000, with the remainder to be paid after the program is complete</li>
+        <li class="parragraphs">Limited to students that are committed to staying in Middle Tennessee post-graduation</li>
+        <li class="parragraphs">Priority is given to students whose economic circumstances would otherwise prevent their attendance at Nashville Software School</li>
+        <li class="parragraphs">A limited number of cost-of-living stipends available on a needs-driven basis to Apprentices during the final 3 months of the program.</li>
+      </ul>
+    </div>
+
+    <% else @course.tuition == "Professional Development (3 months)"%>
+      <%= @course.tuition %>
+    <% end %>
+  </div>
+</div>
 
 
 
@@ -134,49 +275,6 @@ $('.upcoming_programs_background').css({'background-image': 'url(/assets/upcomin
     <br>
 
     <h1>Pricing</h1>
-    <% if @course.type_of_program == "Part-time Class (12 months)" %>
-      <p>There are multiple payment options for the Evening Program. With each payment option, you retain the flexibility to apply to take the second half of the program during the day.</p>
-      <br>
 
-
-      <h1>Option 1</h1>
-      <p>Full Payment up-front</p>
-      <br>
-      <p>Your cost is $10,000</p>
-      <ul>
-        <li>$4,000 initial deposit upon your acceptance into the program, in order to hold your seat.</li>
-        <li>$6,000 balance is due on or before the first day of class</li>
-      </ul>
-
-      <br>
-
-      <h1>Option 2</h1>
-      <p>Initial deposit plus two payments</p>
-      <br>
-      <p>Your cost is $10,500</p>
-      <ul>
-        <li>$4,000 initial deposit upon your acceptance into the program, in order to hold your seat.</li>
-        <li>$2,000 balance is due on or before the first day of class</li>
-        <li>$4,500 payment due on or before the first day of the second half of the program (i.e. the beginning of your seventh month in the program)</li>
-      </ul>
-
-      <br>
-
-      <h1>Option 3</h1>
-      <p>Initial deposit plus two payments</p>
-      <br>
-      <p>Your cost is $11,000</p>
-      <ul>
-        <li>$4,000 initial deposit upon your acceptance into the program, in order to hold your seat.</li>
-        <li>$1,000 balance is due on or before the first day of class</li>
-        <li>$600 per month for 10 months starting with the second month of the program.</li>
-      </ul>
-
-    <% elsif @course.type_of_program == "Bootcamp (6 months)"%>
-      <p>There are two ways to pay for your training at NSS: our standard tuition or by qualifying as a Nashville Tech Apprentice. Out of a total of 24 seats in each cohort at NSS, our goal is to have 12 be Nashville Tech Apprentices and the remainder paying standard tuition. A limited number of grants and scholarships are also available for students from underrepresented groups like women and minorities.</p>
-
-    <% else @course.tuition == "Professional Development (3 months)"%>
-      <%= @course.tuition %>
-    <% end %>
   </div>
 </div> -->

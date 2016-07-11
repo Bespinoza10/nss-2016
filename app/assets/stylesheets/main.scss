@@ -1,6 +1,7 @@
 @import "navbar";
 @import "programs";
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+// @import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+@import url(https://fonts.googleapis.com/css?family=Oxygen:300,400,700);
 $orange: #fe9a22;
 $grey: #646464;
 
@@ -14,10 +15,22 @@ a {
 // }
 
 h1, h2, h3, h4, h5, h6, body{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: 1px;
   font-weight: 400;
 }
+p{
+  font-family: 'Oxygen', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
 
+.parragraphs{
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
 h1{
   font-size: 40px;
 }
@@ -112,10 +125,7 @@ header .intro-text {
   padding-bottom: 15px;
 }
 
-.parragraphs{
-  font-size: 18px;
-  font-weight: 300;
-}
+
 
 .parr-section{
   padding-bottom: 100px;
