@@ -14,7 +14,7 @@ $('.upcoming_programs_background').css({'background-image': 'url(/assets/upcomin
 </script>
 
 <div class="container">
-  <div class="row">
+  <div class="row program-content padding-bottom-top">
     <div class="col-md-12">
       <h1>What You'll Learn</h1>
     </div>
@@ -38,6 +38,70 @@ $('.upcoming_programs_background').css({'background-image': 'url(/assets/upcomin
   </div>
 </div>
 
+<div class="container-fluid class-info ">
+  <div class="container">
+    <div class="row padding-bottom-top">
+
+          <div class="col-md-3 col-sm-12 text-center">
+            <div class="text-center fa fa-clock-o"aria-hidden="true"></div>
+            <h3 class="text-center white">Schedule</h3>
+            <p class="parragraphs white text-center">
+              <%= @course.schedule %>
+            </p>
+          </div>
+
+          <div class="col-md-3 col-sm-12 text-center">
+            <div class="text-center fa fa-map-marker"aria-hidden="true"></div>
+            <h3 class="text-center white">Location</h3>
+            <p class="parragraphs white text-center">
+              <%= @course.date %>
+            </p>
+          </div>
+
+          <div class="col-md-3 col-sm-12 text-center">
+            <div class="text-center fa fa-calendar"aria-hidden="true"></div>
+            <h3 class="text-center white">Dates</h3>
+            <p class="parragraphs white text-center">
+              <%= @course.date %>
+            </p>
+          </div>
+
+          <div class="col-md-3 col-sm-12 text-center">
+            <div class="text-center fa fa-money"aria-hidden="true"></div>
+            <h3 class="text-center white">Tuition</h3>
+            <p class="parragraphs white text-center">
+              <%= @course.date %>
+            </p>
+          </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row program-content padding-bottom-top">
+    <div class="col-md-12">
+      <h1>Requirements</h1>
+    </div>
+    <div class="col-md-6">
+      <p class="parragraphs">The Web Developer Bootcamp is a six-month, full-time program. The curriculum teaches the skills and technologies required to become a full-stack software developer.
+        For most of our students this course is also their introduction to programming.
+        The core technologies that students use in this course are the three standard languages of the web: HTML, CSS and JavaScript.
+        This course prepares students to work and build the front-end code associated with websites, web apps and hybrid mobile applications.
+      </p>
+    </div>
+
+    <div class="col-md-6">
+      <ul>
+        <li class="parragraphs">Program with <%=@course.back_end_lang%> and the <%= @course.back_end_framework%> framework</li>
+        <li class="parragraphs">HTML, CSS and Javascript</li>
+        <li class="parragraphs">Web application development and design</li>
+        <li class="parragraphs">Application deployment and management</li>
+        <li class="parragraphs">Skills necessary to join a development team as a junior developer</li>
+      </ul>
+    </div>
+  </div>
+</div>
 
 
 
