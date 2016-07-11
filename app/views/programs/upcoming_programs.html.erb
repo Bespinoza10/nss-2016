@@ -1,0 +1,63 @@
+<div class="container-fluid upcoming-bg-header">
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="text-center program-title">Upcoming Programs</h1>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row program-content">
+    <p class="parragraphs">NSS courses are designed for a person with aptitude, motivation, passion and commitment who has the strong desire to learn the craft of software development. We are a training ground for new programmers as well as those looking to supplement previous computer science coursework. We also offer a professional development series for software engineers already at work in their careers who want to stay up on the latest technologies.</p>
+    <table class="table program-content upcoming-programs-table">
+      <thead>
+        <th>
+          Program
+        </th>
+        <th>
+          Type
+        </th>
+        <th>
+          Dates
+        </th>
+      </thead>
+      <tbody>
+        <% @courses.each do |course|%>
+          <tr>
+            <td>
+              <%= link_to course.name, course, class: "program-table-links"%>
+
+            </td>
+            <td>
+              <%= link_to course.type_of_program, course, class: "program-table-links"%>
+            </td>
+            <td>
+              <%= course.date %>
+            </td>
+            <td>
+              <a class="btn btn-apply-orange" href="http://www.tfaforms.com/353431">Apply Now</a>
+            </td>
+          </tr>
+        <%end%>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="container-fluid orange-bg">
+  <div class="container padding-bottom-top">
+    <div class="row">
+      <div class="col-md-5 col-md-offset-1">
+        <h1 class="white">Have Questions?</h1>
+        <p class="parragraphs white">Visit our Frequently Asked Questions page for more details.</p>
+        <a href="" class="btn-default btn btn-faq">FAQ</a>
+      </div>
+
+      <div class="col-md-5 col-md-offset-1">
+        <h1 class="white">Sign Me Up</h1>
+        <p class="parragraphs white">Excited about NSS? Apply today.</p>
+        <a href="" class="btn-default btn btn-faq">Apply Now</a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,37 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  type: 
+  date: MyString
+  schedule: MyString
+  location: MyString
+  wyl: MyText
+  wyl_two: MyText
+  hard_soft: MyText
+  skills: MyText
+  pricing: MyText
+  tuition: MyString
+  standard_tuition: MyText
+  apprentice_tuition: MyText
+  option_one: MyText
+  option_two: MyText
+  option_three: MyText
+
+two:
+  name: MyString
+  type: 
+  date: MyString
+  schedule: MyString
+  location: MyString
+  wyl: MyText
+  wyl_two: MyText
+  hard_soft: MyText
+  skills: MyText
+  pricing: MyText
+  tuition: MyString
+  standard_tuition: MyText
+  apprentice_tuition: MyText
+  option_one: MyText
+  option_two: MyText
+  option_three: MyText

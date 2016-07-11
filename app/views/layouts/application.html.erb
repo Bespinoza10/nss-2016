@@ -31,7 +31,7 @@
           <li class="dropdown">
             <a href="#" class="nav-links dropdown-toggle hvr-sweep-to-bottom " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PROGRAMS <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              
+
               <li><a class="hvr-underline-from-left" href="<%= programs_full_time_path %>">Full Time</a></li>
               <li><a class="hvr-underline-from-left" href="<%= programs_part_time_path %>">Part Time</a></li>
               <li><a class="hvr-underline-from-left" href="<%= programs_professional_development_path %>">Professional Development</a></li>
@@ -66,7 +66,64 @@
     </div><!-- /.container-fluid -->
   </nav>
 
-  
+  <% if current_page?(new_course_path)%>
+  <nav class="navbar navbar-default navbar-fixed-top nav-courses">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="<%= root_path %>"><img src="/assets/NSS-logo-compact-small.png" alt="Nashville Software School"></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="nav-links hvr-sweep-to-bottom" href="<%= about_index_path %>">ABOUT US</a></li>
+          <li class="dropdown">
+            <a href="#" class="nav-links dropdown-toggle hvr-sweep-to-bottom " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PROGRAMS <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+
+              <li><a class="hvr-underline-from-left" href="<%= programs_full_time_path %>">Full Time</a></li>
+              <li><a class="hvr-underline-from-left" href="<%= programs_part_time_path %>">Part Time</a></li>
+              <li><a class="hvr-underline-from-left" href="<%= programs_professional_development_path %>">Professional Development</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="nav-links dropdown-toggle hvr-sweep-to-bottom " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">COMMUNITY <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a class="hvr-underline-from-left" href="#">Our Team</a></li>
+              <li><a class="hvr-underline-from-left" href="#">Alumni</a></li>
+              <li><a class="hvr-underline-from-left" href="#">Mentors</a></li>
+              <li><a class="hvr-underline-from-left" href="#">Employers</a></li>
+              <li><a class="hvr-underline-from-left" href="#">What They Are Saying</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="nav-links dropdown-toggle hvr-sweep-to-bottom " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GET INVOLVED <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a class="hvr-underline-from-left" href="#">Become A Partner</a></li>
+              <li><a class="hvr-underline-from-left" href="#">Become A Employer</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="nav-links dropdown-toggle hvr-sweep-to-bottom " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CALENDAR <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a class="hvr-underline-from-left" href="#">UPCOMING EVENTS</a></li>
+              <li><a class="hvr-underline-from-left" href="#">SCHOOL SCHEDULE</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <%end%>
+
 
 <%= yield %>
 
@@ -87,7 +144,7 @@
 </div>
 
 </body>
-  
+
 
 
 </html>

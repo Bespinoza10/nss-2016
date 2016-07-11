@@ -1,0 +1,182 @@
+
+<div class="container-fluid upcoming_programs_background">
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="text-center program-title"> Full-Time Web Developer Bootcamp, <%=@course.back_end_lang%> And <%= @course.back_end_framework%></h1>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+var images = ['upcoming0.jpg', 'upcoming1.jpg', 'upcoming2.jpg', 'upcoming3.jpg', 'upcoming4.jpg'];
+$('.upcoming_programs_background').css({'background-image': 'url(/assets/upcoming/' + images[Math.floor(Math.random() * images.length)] + ')'});
+
+</script>
+
+<div class="container">
+  <div class="row program-content padding-bottom-top">
+    <div class="col-md-12">
+      <h1>What You'll Learn</h1>
+    </div>
+    <div class="col-md-6">
+      <p class="parragraphs">The Web Developer Bootcamp is a six-month, full-time program. The curriculum teaches the skills and technologies required to become a full-stack software developer.
+        For most of our students this course is also their introduction to programming.
+        The core technologies that students use in this course are the three standard languages of the web: HTML, CSS and JavaScript.
+        This course prepares students to work and build the front-end code associated with websites, web apps and hybrid mobile applications.
+      </p>
+    </div>
+
+    <div class="col-md-6">
+      <ul>
+        <li class="parragraphs">Program with <%=@course.back_end_lang%> and the <%= @course.back_end_framework%> framework</li>
+        <li class="parragraphs">HTML, CSS and Javascript</li>
+        <li class="parragraphs">Web application development and design</li>
+        <li class="parragraphs">Application deployment and management</li>
+        <li class="parragraphs">Skills necessary to join a development team as a junior developer</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid class-info ">
+  <div class="container">
+    <div class="row padding-bottom-top">
+
+          <div class="col-md-3 col-sm-12 text-center">
+            <div class="text-center fa fa-clock-o"aria-hidden="true"></div>
+            <h3 class="text-center white">Schedule</h3>
+            <p class="parragraphs white text-center">
+              <%= @course.schedule %>
+            </p>
+          </div>
+
+          <div class="col-md-3 col-sm-12 text-center">
+            <div class="text-center fa fa-map-marker"aria-hidden="true"></div>
+            <h3 class="text-center white">Location</h3>
+            <p class="parragraphs white text-center">
+              <%= @course.date %>
+            </p>
+          </div>
+
+          <div class="col-md-3 col-sm-12 text-center">
+            <div class="text-center fa fa-calendar"aria-hidden="true"></div>
+            <h3 class="text-center white">Dates</h3>
+            <p class="parragraphs white text-center">
+              <%= @course.date %>
+            </p>
+          </div>
+
+          <div class="col-md-3 col-sm-12 text-center">
+            <div class="text-center fa fa-money"aria-hidden="true"></div>
+            <h3 class="text-center white">Tuition</h3>
+            <p class="parragraphs white text-center">
+              <%= @course.date %>
+            </p>
+          </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row program-content padding-bottom-top">
+    <div class="col-md-12">
+      <h1>Requirements</h1>
+    </div>
+    <div class="col-md-6">
+      <p class="parragraphs">The Web Developer Bootcamp is a six-month, full-time program. The curriculum teaches the skills and technologies required to become a full-stack software developer.
+        For most of our students this course is also their introduction to programming.
+        The core technologies that students use in this course are the three standard languages of the web: HTML, CSS and JavaScript.
+        This course prepares students to work and build the front-end code associated with websites, web apps and hybrid mobile applications.
+      </p>
+    </div>
+
+    <div class="col-md-6">
+      <ul>
+        <li class="parragraphs">Program with <%=@course.back_end_lang%> and the <%= @course.back_end_framework%> framework</li>
+        <li class="parragraphs">HTML, CSS and Javascript</li>
+        <li class="parragraphs">Web application development and design</li>
+        <li class="parragraphs">Application deployment and management</li>
+        <li class="parragraphs">Skills necessary to join a development team as a junior developer</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- <div class="container">
+  <div class="row">
+    <%= @course.name %>
+    <br>
+    <%= @course.type_of_program %>
+    <br>
+    <%= @course.date %>
+    <br>
+    <%= @course.schedule %>
+    <br>
+    <%= @course.location %>
+    <br>
+    <%= @course.tuition %>
+    <br>
+    <%= @course.wyl %>
+    <br>
+    <%= @course.wyl_two %>
+    <br>
+    <%= @course.hard_soft %>
+    <br>
+    <%= @course.skills %>
+    <br>
+
+    <h1>Pricing</h1>
+    <% if @course.type_of_program == "Part-time Class (12 months)" %>
+      <p>There are multiple payment options for the Evening Program. With each payment option, you retain the flexibility to apply to take the second half of the program during the day.</p>
+      <br>
+
+
+      <h1>Option 1</h1>
+      <p>Full Payment up-front</p>
+      <br>
+      <p>Your cost is $10,000</p>
+      <ul>
+        <li>$4,000 initial deposit upon your acceptance into the program, in order to hold your seat.</li>
+        <li>$6,000 balance is due on or before the first day of class</li>
+      </ul>
+
+      <br>
+
+      <h1>Option 2</h1>
+      <p>Initial deposit plus two payments</p>
+      <br>
+      <p>Your cost is $10,500</p>
+      <ul>
+        <li>$4,000 initial deposit upon your acceptance into the program, in order to hold your seat.</li>
+        <li>$2,000 balance is due on or before the first day of class</li>
+        <li>$4,500 payment due on or before the first day of the second half of the program (i.e. the beginning of your seventh month in the program)</li>
+      </ul>
+
+      <br>
+
+      <h1>Option 3</h1>
+      <p>Initial deposit plus two payments</p>
+      <br>
+      <p>Your cost is $11,000</p>
+      <ul>
+        <li>$4,000 initial deposit upon your acceptance into the program, in order to hold your seat.</li>
+        <li>$1,000 balance is due on or before the first day of class</li>
+        <li>$600 per month for 10 months starting with the second month of the program.</li>
+      </ul>
+
+    <% elsif @course.type_of_program == "Bootcamp (6 months)"%>
+      <p>There are two ways to pay for your training at NSS: our standard tuition or by qualifying as a Nashville Tech Apprentice. Out of a total of 24 seats in each cohort at NSS, our goal is to have 12 be Nashville Tech Apprentices and the remainder paying standard tuition. A limited number of grants and scholarships are also available for students from underrepresented groups like women and minorities.</p>
+
+    <% else @course.tuition == "Professional Development (3 months)"%>
+      <%= @course.tuition %>
+    <% end %>
+  </div>
+</div> -->
