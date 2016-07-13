@@ -46,7 +46,13 @@ $('.upcoming_programs_background').css({'background-image': 'url(/assets/upcomin
             <div class="text-center fa fa-clock-o"aria-hidden="true"></div>
             <h3 class="text-center white">Schedule</h3>
             <p class="parragraphs white text-center">
-              <%= @course.schedule %>
+              <% if @course.type_of_program == "Bootcamp (6 months)" %>
+                Monday thru Friday 9AM - 4PM
+              <% elsif @course.type_of_program == "Part-time Class (12 months)" %>
+                Monday & Tuesday M/T: 6PM - 9:30PM
+              <% else @course.type_of_program == "Professional Development (3 months)"%>
+                Monday & Tuesday 6PM - 9PM
+              <% end %>
             </p>
           </div>
 
@@ -54,7 +60,8 @@ $('.upcoming_programs_background').css({'background-image': 'url(/assets/upcomin
             <div class="text-center fa fa-map-marker"aria-hidden="true"></div>
             <h3 class="text-center white">Location</h3>
             <p class="parragraphs white text-center">
-              <%= @course.location %>
+              500 Interstate Blvd S, Suite 300
+              Nashville, TN 37210
             </p>
           </div>
 

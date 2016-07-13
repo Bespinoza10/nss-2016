@@ -8,6 +8,11 @@ class CoursesController < ApplicationController
 
   def new
     @course = Course.new
+    # if params[:source] == "Pro Dev"
+    #   render :partial => 'pro-dev'
+    # else
+    #  render :partial => 'form'
+    # end
   end
 
   def create

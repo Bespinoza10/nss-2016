@@ -1,10 +1,39 @@
+<script type="text/javascript">
+$(document).ready(function() {
+
+$('#form-btns a').addClass('inactive');
+$('.form-container').hide();
+
+
+$('#form-btns a').click(function(){
+  var t = $(this).attr('id');
+if($(this).hasClass('inactive')){ //this is the start of our condition
+  $('#form-btns a').addClass('inactive');
+  $(this).removeClass('inactive');
+
+  $('.form-container').hide();
+  $('#'+ t + 'C').fadeIn('slow');
+}
+});
+
+});
+</script>
+
 <div class="container-fluid">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
-        <div class="col-md-10 center-block program-content">
-          <%= render 'form' %>
+      <div class="col-md-12 program-content">
+        <div id="form-btns" class="col-md-5 center-block">
+          <a id="btn1" class="btn btn-view-more">Bootcamp</a>
+          <a id="btn2" class="btn btn-view-more">Professional Development</a>
         </div>
+
+      <div class="col-md-10 center-block form-container" id="btn1C">
+        <%= render 'form' %>
+      </div>
+      <div class="col-md-10 center-block form-container" id="btn2C">
+        <%= render 'pro' %>
+      </div>
       </div>
     </div>
   </div>

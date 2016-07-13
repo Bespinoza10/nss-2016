@@ -11,13 +11,8 @@
     <%end%>
 
     <div class="form-group">
-      <%= f.label "Back End Language" %>
-      <%= f.text_field :back_end_lang, {class: 'form-control form-input'} %>
-    </div>
-
-    <div class="form-group">
-      <%= f.label "Back End Language Framework" %>
-      <%= f.text_field :back_end_framework, {class: 'form-control form-input'} %>
+      <%= f.label :name %>
+      <%= f.text_field :name, {class: 'form-control form-input'} %>
     </div>
 
     <div class="form-group">
@@ -44,7 +39,6 @@
       <%= f.label :tuition %>
       <%= f.text_field :tuition, {class: 'form-control form-input'} %>
     </div>
-
 
     <button type="submit" class="btn sendbtn">Submit</button>
 
