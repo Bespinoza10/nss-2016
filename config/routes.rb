@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   get 'programs/mean' => 'programs#mean'
   get 'programs/csharp' => 'programs#csharp'
   get 'programs/python' => 'programs#python'
-  get 'programs/ios_development' => 'programs#ios_development', :path => 'programs/ios-development'
+  get 'programs/ios-development' => 'programs#ios_development'
   get 'programs/ui_ux' => 'programs#ui-ux-design', :path => 'programs/ui-ux-design'
   get 'programs/upcoming-programs' => 'programs#upcoming_programs'
 

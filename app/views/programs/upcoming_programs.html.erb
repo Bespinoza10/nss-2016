@@ -26,8 +26,9 @@
         <% @courses.each do |course|%>
           <tr>
             <td>
-              <% if course.type_of_program == "Professional Development (3 months)"%>
-                <%= link_to course.name, course, class: "program-table-links" %>
+              <% if course.name == "IOS Development Fast Track"%>
+                <a href="ios-development" class="orange"><%=course.name%></a>
+
               <%else%>
                 Full-Time Web Developer Bootcamp, <%= link_to course.back_end_lang, course, class: "orange"%> and <%= link_to course.back_end_framework, course, class: "orange"%>
               <%end%>

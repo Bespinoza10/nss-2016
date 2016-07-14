@@ -2,11 +2,7 @@
 <div class="container-fluid upcoming_programs_background">
   <div class="row">
     <div class="col-md-12">
-      <% if @course.type_of_program == "Professional Development (3 months)"%>
-        <h1 class="text-center program-title"><%=@course.name%></h1>
-      <%else%>
         <h1 class="text-center program-title"> Full-Time Web Developer Bootcamp, <%=@course.back_end_lang%> And <%= @course.back_end_framework%></h1>
-      <%end%>
     </div>
   </div>
 </div>
@@ -29,24 +25,6 @@ WHAT YOU'LL LEARN
     <div class="col-md-12">
       <h1>What You'll Learn</h1>
     </div>
-    <% if @course.name == "IOS Development Fast Track"%>
-    <div class="col-md-6">
-      <p>Do you want to add Apple’s iOS platform and the Swift and Objective-C languages to your professional tool kit?
-        Need to keep your career moving forward by building your skills in mobile development?
-        Our evening intensive introduction to iOS development is what you need to upgrade your skills and expand your career options.
-         Come learn iOS development, as well as the Apple Human Interface Guidelines (the HIG) and Apple App Store submission requirements and process.
-      </p>
-    </div>
-    <div class="col-md-6">
-      <ul>
-        <li><p>Learn to write, compile, test, debug, and instrument iOS Apps</p></li>
-        <li><p>Develop familiarity with the Apple development toolchain and it’s open source extensions (git, cocoapods, KIF)</p></li>
-        <li><p>Gain Understanding of the Apple Human Interface Guidelines (the HIG) and Apple App Store submission requirements and process</p></li>
-        <li><p>Learn (in the iOS context) Object-Oriented Programming, UI Design, Multimedia/Graphics, Animation, Multithreading, Networking, Database Processing and Security.</p></li>
-        <li><p>Final project, to be chosen by student and approved by teacher, should go in depth on some subset of the technologies taught in class.</p></li>
-      </ul>
-    </div>
-    <%else%>
     <div class="col-md-6">
       <p class="parragraphs">The Web Developer Bootcamp is a six-month, full-time program. The curriculum teaches the skills and technologies required to become a full-stack software developer.
         For most of our students this course is also their introduction to programming.
@@ -63,7 +41,6 @@ WHAT YOU'LL LEARN
         <li class="parragraphs">Skills necessary to join a development team as a junior developer</li>
       </ul>
     </div>
-  <%end%>
   </div>
 </div>
 
@@ -86,8 +63,6 @@ CLASS QUICK INFO
                 Monday thru Friday 9AM - 4PM
               <% elsif @course.type_of_program == "Part-time Class (12 months)" %>
                 Monday & Tuesday M/T: 6PM - 9:30PM
-              <% else @course.type_of_program == "Professional Development (3 months)"%>
-                Monday & Tuesday 6PM - 9PM
               <% end %>
             </p>
           </div>
@@ -173,44 +148,6 @@ REQUIREMENTS
     </div>
   </div>
 </div>
-<%elsif @course.name == "IOS Development Fast Track"%>
-<div class="container">
-  <div class="row program-content padding-bottom-top">
-    <div class="col-md-12">
-      <h1>Requirements</h1>
-    </div>
-    <div class="col-md-6">
-      <h3 class="orange">HARDWARE & SOFTWARE</h3>
-      <ul>
-        <li><p>Apple Developer Account ($99/year)</p></li>
-
-        <li><p>A Macintosh laptop running OS X 10.11 (El Capitan). NB It is NOT an option to use a Windows or Linux computer for completion of homework assignments in this class.  if you do not have access to a Macintosh computer with the appropriate version of the software installed you will not be able to complete any assignments.  Student must bring this computer to class as we will be doing a lot of programming in class.</p></li>
-
-        <li><p>The Xcode Integrated Development Environment installed on the student’s computer</p></li>
-
-        <li><p>Xcode <a class="orange" href="https://developer.apple.com/xcode/ide/">7.3</a></p></li>
-
-        <li><p>iPhone or iPad running iOS 9 or later</p></li>
-
-        <li><p>Accounts with <a class="orange" href="http://github.com">GitHub</a> and <a class="orange" href="http://testflightapp.com">TestFlightApp.com</a></p></li>
-
-        <li><p>Reading: <a class="orange" href="https://itunes.apple.com/us/book/swift-programming-language/id881256329?mt=11">The Swift Programming Language</a></p></li>
-
-        <li><p>A git client, <a class="orange" href="http://www.git-tower.com/">Tower</a> or <a class="orange" href="https://www.sourcetreeapp.com/">SourceTree</a> are both recommended</p></li>
-
-        <li><p>Additional Optional Reading: <a class="orange" href="http://www.amazon.com/Functional-Programming-Swift-Chris-Eidhof/dp/3000480056">Functional Programming in Swift</a>, <a class="orange" href="https://itunes.apple.com/us/book/using-swift-cocoa-objective/id888894773?mt=11">Using Swift with Cocoa and Objective-C</a></p></li>
-
-      </ul>
-    </div>
-
-    <div class="col-md-6">
-      <h3 class="orange">SKILLS</h3>
-      <ul>
-        <li class="parragraphs">Previous experience in programming with an object-oriented language such as JavaScript, Python, Ruby, C#, Java. Long exposure not required, but the student MUST have an understanding of such things as how to compile and run code, read and respond to error and warning messages, use a debugger and understand the basics of input and output from a computer. </li>
-      </ul>
-    </div>
-  </div>
-</div>
 <%end%>
 
 
@@ -225,354 +162,48 @@ SYLLABUS
 <div class="container">
   <div class="row padding-bottom-top">
     <h1>Syllabus</h1>
-    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-      <% if @course.name == "IOS Development Fast Track"%>
-      <div class="panel-heading" role="tab" id="headingOne">
-        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          <h3 ><span class="syllabus-title">WEEK 1: </span> Introduction to Xcode and Interfacebuilder for <iOS></iOS></h3>
-        </a>
-      </div>
-      <hr class="greyHr">
-      <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-
-        <ul class="parragraphs">
-          <li>Policies</li>
-          <li>Student Surveys</li>
-          <li>Xcode Intro
-            <ul>
-              <li>Demo of a basic iOS App &amp; Playgrounds</li>
-            </ul>
-          </li>
-          <li>Navigating Xcode to create a real project
-            <ul>
-              <li>StoryBoards</li>
-              <li>Source files and wiring them together</li>
-              <li>The View hierarchy and view attributes</li>
-              <li>Autolayout using Constraints
-                <ul>
-                  <li>Why and How</li>
-                  <li>Size classes and designing an interface for multiple device classes</li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-        </ul>
-        <hr class="greyHr">
-      </div>
-
-
-      <!-- TAB #2 -->
-
-      <div class="panel-heading" role="tab" id="headingTwo">
-        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          <h3><span class="syllabus-title">Week 2: </span> App Development with Swift</h3>
-        </a>
-      </div>
-      <hr class="greyHr">
-      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-        <ul class="parragraphs">
-          <li>Swift language essentials
-            <ul>
-              <li>Arrays</li>
-              <li>Dictionaries</li>
-              <li>Functions</li>
-              <li>Optionals</li>
-              <li>Control Flow</li>
-              <li>Structs Enums and Classes</li>
-              <li>Playgrounds</li>
-            </ul>
-          </li>
-          <li>Elements of The Swift Foundation Classes</li>
-          <li>CocoaTouch Foundation Framework</li>
-          <li>Simple connections to the User Interface</li>
-        </ul>
-
-        <hr class="greyHr">
-      </div>
-
-      <!-- TAB #3 -->
-
-      <div class="panel-heading" role="tab" id="headingThree">
-        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          <h3><span class="syllabus-title">WEEK 3: </span> Drawing with Swift</h3>
-        </a>
-      </div>
-      <hr class="greyHr">
-      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-        <ul class="parragraphs">
-          <li>The UIKit Framework</li>
-          <li>Essential Debugging</li>
-          <li>Introduction to Model/View/Controller</li>
-          <li>Structure of an iOS App</li>
-          <li>The relationship between the backing code and the UI (References &amp; Outlets)</li>
-          <li>Basic custom drawing (2D Quartz library)</li>
-          <li>Touches and Gestures</li>
-          <li>The responder Chain</li>
-          <li>Color models</li>
-          <li>Alpha</li>
-          <li>Images</li>
-          <li>Text</li>
-        </ul>
-
-        <hr class="greyHr">
-      </div>
-
-      <!-- TAB #4 -->
-
-      <div class="panel-heading" role="tab" id="headingFour">
-        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-          <h3><span class="syllabus-title">WEEK 4: </span> Model/View/Controller</h3>
-        </a>
-      </div>
-      <hr class="greyHr">
-      <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-        <ul class="parragraphs">
-          <li>Organizational Concepts
-            <ul>
-              <li>Separate Model Classes</li>
-              <li>Observed Properties</li>
-              <li>Notifications Basic Interactive Controls within UIKit, UIKit Building Blocks
-                <ul>
-                  <li>Views and View Controllers</li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li>Important UIKit Interactive and Display Widgets</li>
-          <li>Basic Custom Drawing (2D Quartz library)</li>
-          <li>Touches and Gestures</li>
-        </ul>
-
-        <hr class="greyHr">
-      </div>
-
-      <!-- TAB #5 -->
-
-      <div class="panel-heading" role="tab" id="headingFive">
-        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-          <h3><span class="syllabus-title">WEEK 5: </span> Intro to Scrollable Views, Tabs and Pages</h3>
-        </a>
-      </div>
-      <hr class="greyHr">
-      <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-        <ul class="parragraphs">
-          <li>Frames and Bounds</li>
-          <li>ScrollViews</li>
-          <li>TableViews CollectionViews and their Controllers</li>
-          <li>Tabbed Views and their Controllers</li>
-          <li>PageController</li>
-        </ul>
-
-        <hr class="greyHr">
-      </div>
-
-
-      <!-- TAB #6 -->
-
-      <div class="panel-heading" role="tab" id="headingSix">
-        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-          <h3><span class="syllabus-title">WEEK 6: </span> Asynchronous Network Access</h3>
-        </a>
-      </div>
-      <hr class="greyHr">
-      <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
-        <ul class="parragraphs">
-          <li>Fetching Data from the Network and working with JSON</li>
-          <li>Off-main thread Access and Scheduling Techniques</li>
-        </ul>
-
-        <hr class="greyHr">
-      </div>
-
-      <!-- TAB #7 -->
-
-      <div class="panel-heading" role="tab" id="headingSeven">
-        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-          <h3><span class="syllabus-title">WEEK 7: </span> XCTEST, Unit and UI Testing, Instructor-Selected Project Completion and Support</h3>
-        </a>
-      </div>
-      <hr class="greyHr">
-      <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
-        <ul class="parragraphs">
-          <li>Using XCTest to write Unit Tests and UI tests</li>
-          <li>Specific attention paid to the instructor-selected project which is due at this time </li>
-        </ul>
-
-        <hr class="greyHr">
-      </div>
-
-      <!-- TAB #8 -->
-
-      <div class="panel-heading" role="tab" id="headingEight">
-        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-          <h3><span class="syllabus-title">WEEK 8: </span> Core Data</h3>
-        </a>
-      </div>
-      <hr class="greyHr">
-      <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
-        <ul class="parragraphs">
-          <li>Using Data Models</li>
-          <li>Entities</li>
-          <li>Attributes</li>
-          <li>Relationships</li>
-          <li>FetchedProperties</li>
-          <li>Preparing a simple UI with NSFetchedResultsController</li>
-          <li>The structure of a CoreData app including
-            <ul>
-              <li>Persistent Database</li>
-              <li>Object Graph</li>
-              <li>Persistent Objects</li>
-              <li>Queries</li>
-              <li>Inserts/Updates/Deletes</li>
-            </ul>
-          </li>
-        </ul>
-
-        <hr class="greyHr">
-      </div>
-
-      <!-- TAB #9 -->
-
-      <div class="panel-heading" role="tab" id="headingNine">
-        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-          <h3><span class="syllabus-title">WEEK 9: </span> Location-Based Applications</h3>
-        </a>
-      </div>
-      <hr class="greyHr">
-      <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
-        <ul class="parragraphs">
-          <li>CoreLocation Basics
-            <ul>
-              <li>Lat/Lon/Alt</li>
-              <li>Maps and Projections</li>
-              <li>Proper use of CoreLocation elements
-                <ul>
-                  <li>Actual location</li>
-                  <li>Starting and stopping location updates</li>
-                  <li>Receiving updates</li>
-                  <li>Displaying location</li>
-                  <li>Annotations</li>
-                  <li>Viewpoints</li>
-                  <li>Searching Maps Going Places</li>
-                  <li>Map Overlays</li>
-                  <li>Beacons</li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-        </ul>
-
-        <hr class="greyHr">
-      </div>
-
-      <!-- TAB #10 -->
-
-      <div class="panel-heading" role="tab" id="headingTen">
-        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-          <h3><span class="syllabus-title"> WEEK 10: </span> Advanced Animations</h3>
-        </a>
-      </div>
-      <hr class="greyHr">
-      <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
-        <ul class="parragraphs">
-          <li>Topics including
-            <ul>
-              <li>Differences between the iPhone and the iPad</li>
-              <li>Layouts for CollectionViews</li>
-              <li>Animating Layouts</li>
-              <li>Using Multiple Layouts (and animating between layouts with one UIViewController)</li>
-              <li>Animations with multiple UICollectionViewControllers</li>
-            </ul>
-          </li>
-        </ul>
-
-        <hr class="greyHr">
-      </div>
-
-      <!-- TAB #11 -->
-
-      <div class="panel-heading" role="tab" id="headingEleven">
-        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-          <h3><span class="syllabus-title"> WEEK 11: </span> Advanced Networking<h3>
-        </a>
-      </div>
-      <hr class="greyHr">
-      <div id="collapseEleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEleven">
-        <ul class="parragraphs">
-          <li>Consuming RESTful Web Services</li>
-          <li>Fetching</li>
-          <li>Parsing of JSON or XML</li>
-          <li>Using UIWebView</li>
-          <li>Security, OAuth2</li>
-          <li>Simple UI: NSFetchedResultsController</li>
-          <li>App IDs</li>
-          <li>Grant Codes</li>
-          <li>Access Tokens</li>
-          <li>Redirects</li>
-          <li>Keychains</li>
-          <li>Display of Fetched and Parsed Data</li>
-        </ul>
-
-        <hr class="greyHr">
-      </div>
-
-      <!-- TAB #12 -->
-
-      <div class="panel-heading" role="tab" id="headingTwelve">
-        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-          <h3><span class="syllabus-title"> WEEK 12: </span> Apple Watch, Apple TV, Support for Capstone Project</h3>
-        </a>
-      </div>
-      <hr class="greyHr">
-      <div id="collapseTwelve" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwelve">
-        <ul class="parragraphs">
-          <li>Principles of Design for the AppleWatch and Apple TV</li>
-        </ul>
-
-        <hr class="greyHr">
-      </div>
-      <%else%>
-      <div class="panel-heading" role="tab" id="headingOne">
-        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          <h3>Front-End Development Foundations</h3>
-        </a>
-      </div>
-      <hr class="greyHr">
-      <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-
-        <ul class="parragraphs">
-          <p class="parragraphs">The first half of this course covers the materials in the <a href="../programs/front-end" target="_blank" class="orange">Front-End Development Foundations</a>.</p>
-        </ul>
-        <hr class="greyHr">
-      </div>
-
-      <!-- TAB #2 -->
-
-      <div class="panel-heading" role="tab" id="headingTwo">
-        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          <h3>Backend: <%= @course.back_end_lang%> and <%=@course.back_end_framework%></h3>
-        </a>
-      </div>
-      <hr class="greyHr">
-      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-        <ul class="parragraphs">
-          <%if @course.back_end_lang == "Python"%>
-            <p>The second half of this course covers <a class="orange" href="../programs/python">backend development with <%= @course.back_end_lang%> and <%=@course.back_end_framework%></a>.</p>
-          <%elsif @course.back_end_lang == "C#"%>
-            <p>The second half of this course covers <a class="orange" href="../programs/csharp">backend development with <%= @course.back_end_lang%> and <%=@course.back_end_framework%></a>.</p>
-          <%elsif @course.back_end_lang == "Javascript"%>
-            <p>The second half of this course covers <a class="orange" href="../programs/mean">backend development with <%= @course.back_end_lang%> and <%=@course.back_end_framework%></a>.</p>
-          <%elsif @course.back_end_lang == "Ruby"%>
-            <p>The second half of this course covers <a class="orange" href="../programs/ruby">backend development with <%= @course.back_end_lang%> and <%=@course.back_end_framework%></a>.</p>
-          <%end%>
-        </ul>
-
-        <hr class="greyHr">
-      </div>
-      <%end%>
+      <!-- TAB 1 -->
+    <div class="panel-heading" role="tab" id="headingOne">
+      <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+        <h3>Front-End Development Foundations</h3>
+      </a>
     </div>
+    <hr class="greyHr">
+    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+
+      <ul class="parragraphs">
+        <p class="parragraphs">The first half of this course covers the materials in the <a href="../programs/front-end" target="_blank" class="orange">Front-End Development Foundations</a>.</p>
+      </ul>
+      <hr class="greyHr">
+    </div>
+
+    <!-- TAB #2 -->
+
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <h3>Backend: <%= @course.back_end_lang%> and <%=@course.back_end_framework%></h3>
+      </a>
+    </div>
+    <hr class="greyHr">
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <ul class="parragraphs">
+        <%if @course.back_end_lang == "Python"%>
+          <p>The second half of this course covers <a class="orange" href="../programs/python">backend development with <%= @course.back_end_lang%> and <%=@course.back_end_framework%></a>.</p>
+        <%elsif @course.back_end_lang == "C#"%>
+          <p>The second half of this course covers <a class="orange" href="../programs/csharp">backend development with <%= @course.back_end_lang%> and <%=@course.back_end_framework%></a>.</p>
+        <%elsif @course.back_end_lang == "Javascript"%>
+          <p>The second half of this course covers <a class="orange" href="../programs/mean">backend development with <%= @course.back_end_lang%> and <%=@course.back_end_framework%></a>.</p>
+        <%elsif @course.back_end_lang == "Ruby"%>
+          <p>The second half of this course covers <a class="orange" href="../programs/ruby">backend development with <%= @course.back_end_lang%> and <%=@course.back_end_framework%></a>.</p>
+        <%end%>
+      </ul>
+
+      <hr class="greyHr">
+    </div>
+
   </div>
 </div>
+
 
 
 <!----------------------------------------------------------------------
@@ -587,7 +218,7 @@ PRICING
     <div class="col-md-12">
       <h1>Pricing</h1>
 
-    <% if @course.type_of_program == "Part-time Class (12 months)" %>
+  <% if @course.type_of_program == "Part-time Class (12 months)" %>
       <p class="parragraphs">There are multiple payment options for the Evening Program. With each payment option, you retain the flexibility to apply to take the second half of the program during the day.</p>
     </div>
     <div class="col-md-4">
@@ -623,7 +254,7 @@ PRICING
       </ul>
     </div>
 
-    <% elsif @course.type_of_program == "Bootcamp (6 months)"%>
+  <% elsif @course.type_of_program == "Bootcamp (6 months)"%>
 
     <div class="col-md-12">
       <p class="parragraphs">There are two ways to pay for your training at NSS: our standard tuition or by qualifying as a Nashville Tech Apprentice. Out of a total of 24 seats in each cohort at NSS, our goal is to have 12 be Nashville Tech Apprentices and the remainder paying standard tuition. A limited number of grants and scholarships are also available for students from underrepresented groups like women and minorities.</p>
@@ -648,9 +279,6 @@ PRICING
         <li class="parragraphs">A limited number of cost-of-living stipends available on a needs-driven basis to Apprentices during the final 3 months of the program.</li>
       </ul>
     </div>
-
-    <% else @course.tuition == "Professional Development (3 months)"%>
-      <%= @course.tuition %>
-    <% end %>
+  <% end %>
   </div>
 </div>
