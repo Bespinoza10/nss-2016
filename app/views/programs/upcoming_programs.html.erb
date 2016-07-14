@@ -26,10 +26,10 @@
         <% @courses.each do |course|%>
           <tr>
             <td>
-              <% if course.type_of_program == "Bootcamp (6 months)" || "Part-time Class (12 months)"%>
-                Full-Time Web Developer Bootcamp, <%= link_to course.back_end_lang, course, class: "orange" %> And <%= link_to course.back_end_framework, course, class: "orange"%>
-              <% else course.type_of_program == "Professional Development (3 months)"%>
-                <%= link_to course.name, course %>
+              <% if course.type_of_program == "Professional Development (3 months)"%>
+                <%= link_to course.name, course, class: "program-table-links" %>
+              <%else%>
+                Full-Time Web Developer Bootcamp, <%= link_to course.back_end_lang, course, class: "orange"%> and <%= link_to course.back_end_framework, course, class: "orange"%>
               <%end%>
             </td>
             <td>
