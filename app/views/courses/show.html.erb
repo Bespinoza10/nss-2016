@@ -2,7 +2,7 @@
 <div class="container-fluid upcoming_programs_background">
   <div class="row">
     <div class="col-md-12">
-      <h1 class="text-center program-title"> Full-Time Web Developer Bootcamp, <%=@course.back_end_lang%> And <%= @course.back_end_framework%></h1>
+        <h1 class="text-center program-title"> Full-Time Web Developer Bootcamp, <%=@course.back_end_lang%> And <%= @course.back_end_framework%></h1>
     </div>
   </div>
 </div>
@@ -12,6 +12,13 @@ var images = ['upcoming0.jpg', 'upcoming1.jpg', 'upcoming2.jpg', 'upcoming3.jpg'
 $('.upcoming_programs_background').css({'background-image': 'url(/assets/upcoming/' + images[Math.floor(Math.random() * images.length)] + ')'});
 
 </script>
+
+<!----------------------------------------------------------------------
+
+WHAT YOU'LL LEARN
+
+----------------------------------------------------------------------->
+
 
 <div class="container">
   <div class="row program-content padding-bottom-top">
@@ -25,7 +32,6 @@ $('.upcoming_programs_background').css({'background-image': 'url(/assets/upcomin
         This course prepares students to work and build the front-end code associated with websites, web apps and hybrid mobile applications.
       </p>
     </div>
-
     <div class="col-md-6">
       <ul>
         <li class="parragraphs">Program with <%=@course.back_end_lang%> and the <%= @course.back_end_framework%> framework</li>
@@ -38,6 +44,13 @@ $('.upcoming_programs_background').css({'background-image': 'url(/assets/upcomin
   </div>
 </div>
 
+<!----------------------------------------------------------------------
+
+CLASS QUICK INFO
+
+----------------------------------------------------------------------->
+
+
 <div class="container-fluid class-info ">
   <div class="container">
     <div class="row padding-bottom-top">
@@ -46,7 +59,11 @@ $('.upcoming_programs_background').css({'background-image': 'url(/assets/upcomin
             <div class="text-center fa fa-clock-o"aria-hidden="true"></div>
             <h3 class="text-center white">Schedule</h3>
             <p class="parragraphs white text-center">
-              <%= @course.schedule %>
+              <% if @course.type_of_program == "Bootcamp (6 months)" %>
+                Monday thru Friday 9AM - 4PM
+              <% elsif @course.type_of_program == "Part-time Class (12 months)" %>
+                Monday & Tuesday M/T: 6PM - 9:30PM
+              <% end %>
             </p>
           </div>
 
@@ -54,7 +71,8 @@ $('.upcoming_programs_background').css({'background-image': 'url(/assets/upcomin
             <div class="text-center fa fa-map-marker"aria-hidden="true"></div>
             <h3 class="text-center white">Location</h3>
             <p class="parragraphs white text-center">
-              <%= @course.location %>
+              500 Interstate Blvd S, Suite 300
+              Nashville, TN 37210
             </p>
           </div>
 
@@ -78,6 +96,13 @@ $('.upcoming_programs_background').css({'background-image': 'url(/assets/upcomin
   </div>
 </div>
 
+<!----------------------------------------------------------------------
+
+REQUIREMENTS
+
+----------------------------------------------------------------------->
+
+
 <% if @course.type_of_program == "Bootcamp (6 months)" %>
 <div class="container">
   <div class="row program-content padding-bottom-top">
@@ -85,14 +110,14 @@ $('.upcoming_programs_background').css({'background-image': 'url(/assets/upcomin
       <h1>Requirements</h1>
     </div>
     <div class="col-md-6">
-      <h3>HARDWARE & SOFTWARE</h3>
+      <h3 class="orange">HARDWARE & SOFTWARE</h3>
       <ul>
         <li class="parragraphs">Personal Laptop with 4 GB RAM and at least 20GB free disk space</li>
       </ul>
     </div>
 
     <div class="col-md-6">
-      <h3>SKILLS</h3>
+      <h3 class="orange">SKILLS</h3>
       <ul>
         <li class="parragraphs">Structured Thinking </li>
         <li class="parragraphs">Curiosity </li>
@@ -125,60 +150,75 @@ $('.upcoming_programs_background').css({'background-image': 'url(/assets/upcomin
 </div>
 <%end%>
 
+
+<!----------------------------------------------------------------------
+
+SYLLABUS
+
+----------------------------------------------------------------------->
+
+
+
 <div class="container">
   <div class="row padding-bottom-top">
     <h1>Syllabus</h1>
-    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-
-
-      <div class="panel-heading" role="tab" id="headingOne">
-        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          <h3>Front-End Development Foundations</h3>
-        </a>
-      </div>
-      <hr class="greyHr">
-      <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-
-        <ul class="parragraphs">
-          <p class="parragraphs">The first half of this course covers the materials in the <a href="../programs/front-end" target="_blank" class="orange">Front-End Development Foundations</a>.</p>
-        </ul>
-        <hr class="greyHr">
-      </div>
-
-
-      <!-- TAB #2 -->
-
-      <div class="panel-heading" role="tab" id="headingTwo">
-        <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          <h3>Backend: <%= @course.back_end_lang%> and <%=@course.back_end_framework%></h3>
-        </a>
-      </div>
-      <hr class="greyHr">
-      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-        <ul class="parragraphs">
-          <%if @course.back_end_lang == "Python"%>
-            <p>The second half of this course covers <a class="orange" href="../programs/python">backend development with <%= @course.back_end_lang%> and <%=@course.back_end_framework%></a>.</p>
-          <%elsif @course.back_end_lang == "C#"%>
-            <p>The second half of this course covers <a class="orange" href="../programs/csharp">backend development with <%= @course.back_end_lang%> and <%=@course.back_end_framework%></a>.</p>
-          <%elsif @course.back_end_lang == "Javascript"%>
-            <p>The second half of this course covers <a class="orange" href="../programs/mean">backend development with <%= @course.back_end_lang%> and <%=@course.back_end_framework%></a>.</p>
-          <%elsif @course.back_end_lang == "Ruby"%>
-            <p>The second half of this course covers <a class="orange" href="../programs/ruby">backend development with <%= @course.back_end_lang%> and <%=@course.back_end_framework%></a>.</p>
-          <%end%>
-        </ul>
-
-        <hr class="greyHr">
-      </div>
+      <!-- TAB 1 -->
+    <div class="panel-heading" role="tab" id="headingOne">
+      <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+        <h3>Front-End Development Foundations</h3>
+      </a>
     </div>
+    <hr class="greyHr">
+    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+
+      <ul class="parragraphs">
+        <p class="parragraphs">The first half of this course covers the materials in the <a href="../programs/front-end" target="_blank" class="orange">Front-End Development Foundations</a>.</p>
+      </ul>
+      <hr class="greyHr">
+    </div>
+
+    <!-- TAB #2 -->
+
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <a class="collapsed orangeTwo" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <h3>Backend: <%= @course.back_end_lang%> and <%=@course.back_end_framework%></h3>
+      </a>
+    </div>
+    <hr class="greyHr">
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <ul class="parragraphs">
+        <%if @course.back_end_lang == "Python"%>
+          <p>The second half of this course covers <a class="orange" href="../programs/python">backend development with <%= @course.back_end_lang%> and <%=@course.back_end_framework%></a>.</p>
+        <%elsif @course.back_end_lang == "C#"%>
+          <p>The second half of this course covers <a class="orange" href="../programs/csharp">backend development with <%= @course.back_end_lang%> and <%=@course.back_end_framework%></a>.</p>
+        <%elsif @course.back_end_lang == "Javascript"%>
+          <p>The second half of this course covers <a class="orange" href="../programs/mean">backend development with <%= @course.back_end_lang%> and <%=@course.back_end_framework%></a>.</p>
+        <%elsif @course.back_end_lang == "Ruby"%>
+          <p>The second half of this course covers <a class="orange" href="../programs/ruby">backend development with <%= @course.back_end_lang%> and <%=@course.back_end_framework%></a>.</p>
+        <%end%>
+      </ul>
+
+      <hr class="greyHr">
+    </div>
+
   </div>
 </div>
+
+
+
+<!----------------------------------------------------------------------
+
+PRICING
+
+----------------------------------------------------------------------->
+
 
 <div class="container">
   <div class="row program-content padding-bottom-top">
     <div class="col-md-12">
       <h1>Pricing</h1>
 
-    <% if @course.type_of_program == "Part-time Class (12 months)" %>
+  <% if @course.type_of_program == "Part-time Class (12 months)" %>
       <p class="parragraphs">There are multiple payment options for the Evening Program. With each payment option, you retain the flexibility to apply to take the second half of the program during the day.</p>
     </div>
     <div class="col-md-4">
@@ -214,7 +254,7 @@ $('.upcoming_programs_background').css({'background-image': 'url(/assets/upcomin
       </ul>
     </div>
 
-    <% elsif @course.type_of_program == "Bootcamp (6 months)"%>
+  <% elsif @course.type_of_program == "Bootcamp (6 months)"%>
 
     <div class="col-md-12">
       <p class="parragraphs">There are two ways to pay for your training at NSS: our standard tuition or by qualifying as a Nashville Tech Apprentice. Out of a total of 24 seats in each cohort at NSS, our goal is to have 12 be Nashville Tech Apprentices and the remainder paying standard tuition. A limited number of grants and scholarships are also available for students from underrepresented groups like women and minorities.</p>
@@ -239,42 +279,6 @@ $('.upcoming_programs_background').css({'background-image': 'url(/assets/upcomin
         <li class="parragraphs">A limited number of cost-of-living stipends available on a needs-driven basis to Apprentices during the final 3 months of the program.</li>
       </ul>
     </div>
-
-    <% else @course.tuition == "Professional Development (3 months)"%>
-      <%= @course.tuition %>
-    <% end %>
+  <% end %>
   </div>
 </div>
-
-
-
-
-
-
-<!-- <div class="container">
-  <div class="row">
-    <%= @course.name %>
-    <br>
-    <%= @course.type_of_program %>
-    <br>
-    <%= @course.date %>
-    <br>
-    <%= @course.schedule %>
-    <br>
-    <%= @course.location %>
-    <br>
-    <%= @course.tuition %>
-    <br>
-    <%= @course.wyl %>
-    <br>
-    <%= @course.wyl_two %>
-    <br>
-    <%= @course.hard_soft %>
-    <br>
-    <%= @course.skills %>
-    <br>
-
-    <h1>Pricing</h1>
-
-  </div>
-</div> -->

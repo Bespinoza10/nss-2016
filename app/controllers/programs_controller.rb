@@ -33,7 +33,8 @@ class ProgramsController < ApplicationController
   end
 
   def ios_development
-
+    @courses = Course.all.order("created_at desc")
+    
   end
 
   def ui_ux

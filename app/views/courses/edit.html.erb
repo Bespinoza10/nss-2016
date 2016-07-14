@@ -3,7 +3,11 @@
     <div class="col-md-12">
       <h1 style="text-align: center;">Edit Course</h1>
       <div class="col-md-10 center-block">
-        <%= render 'form' %>
+        <% if @course.type_of_program == "Professional Development (3 months)"%>
+          <%= render 'pro' %>
+        <%else%>
+          <%= render 'form' %>
+        <%end%>
       </div>
     </div>
   </div>

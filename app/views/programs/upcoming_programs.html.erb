@@ -9,6 +9,7 @@
 <div class="container">
   <div class="row padding-bottom-top">
     <p class="parragraphs">NSS courses are designed for a person with aptitude, motivation, passion and commitment who has the strong desire to learn the craft of software development. We are a training ground for new programmers as well as those looking to supplement previous computer science coursework. We also offer a professional development series for software engineers already at work in their careers who want to stay up on the latest technologies.</p>
+
     <table class="table program-content upcoming-programs-table">
       <thead>
         <th>
@@ -25,8 +26,12 @@
         <% @courses.each do |course|%>
           <tr>
             <td>
-              <%= link_to course.name, course, class: "program-table-links"%>
+              <% if course.name == "IOS Development Fast Track"%>
+                <a href="ios-development" class="orange"><%=course.name%></a>
 
+              <%else%>
+                Full-Time Web Developer Bootcamp, <%= link_to course.back_end_lang, course, class: "orange"%> and <%= link_to course.back_end_framework, course, class: "orange"%>
+              <%end%>
             </td>
             <td>
               <%= link_to course.type_of_program, course, class: "program-table-links"%>
@@ -43,6 +48,7 @@
     </table>
   </div>
 </div>
+<%= link_to "New Course", new_course_path, class: "btn-view-more" %>
 
 <div class="container-fluid orange-bg">
   <div class="container padding-bottom-top">

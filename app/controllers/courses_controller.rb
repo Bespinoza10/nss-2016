@@ -8,6 +8,11 @@ class CoursesController < ApplicationController
 
   def new
     @course = Course.new
+    # if params[:source] == "Pro Dev"
+    #   render :partial => 'pro-dev'
+    # else
+    #  render :partial => 'form'
+    # end
   end
 
   def create
@@ -43,7 +48,7 @@ class CoursesController < ApplicationController
   private
 
   def course_params
-    params.require(:course).permit(:back_end_lang, :back_end_framework, :type_of_program, :date, :schedule, :location, :wyl, :wyl_two, :hard_soft, :skills, :pricing, :tuition, :standard_tuition, :apprentice_tuition, :option_one, :option_two, :option_three)
+    params.require(:course).permit(:name, :back_end_lang, :back_end_framework, :type_of_program, :date, :schedule, :location, :wyl, :wyl_two, :hard_soft, :skills, :pricing, :tuition, :standard_tuition, :apprentice_tuition, :option_one, :option_two, :option_three)
   end
 
   def find_course
